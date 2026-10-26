@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10243a">
+  <meta name="description" content="شبكة أبو الأنوف الإعلامية — الموقع الإخباري والصحيفة المصورة والنشرة اليمنية اليومية. الخبر من مصدره، والتحقق قبل النشر.">
+  <title>شبكة أبو الأنوف الإعلامية | النشرة اليمنية اليومية</title>
+  <style>
+    :root{--navy:#10243a;--navy2:#173b5b;--gold:#d6a642;--paper:#f5f7fa;--ink:#182331;--muted:#637083;--line:#dce3ea;--white:#fff;--red:#b8202e}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+    a{color:inherit}
+    .wrap{width:min(1120px,94%);margin:auto}
+    .topline{background:#091827;color:#eaf0f6;font-size:.85rem;padding:6px 0}
+    .topline .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    header{background:linear-gradient(125deg,var(--navy),var(--navy2));color:#fff;border-bottom:4px solid var(--gold)}
+    .brand{display:flex;align-items:center;gap:14px;padding:20px 0}
+    .brand img{width:76px;height:76px;object-fit:contain;background:#fff;border-radius:50%;padding:5px}
+    .brand h1{font-size:clamp(1.25rem,3.5vw,2rem);margin:0;line-height:1.4}
+    .brand p{margin:4px 0 0;color:#d8e3ee;font-size:.94rem}
+    nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;box-shadow:0 2px 8px #0d21300c}
+    .navrow{display:flex;gap:4px;align-items:center;overflow-x:auto;padding:8px 0;white-space:nowrap}
+    nav a{text-decoration:none;padding:8px 12px;border-radius:7px;font-weight:bold;font-size:.92rem}
+    nav a:hover,nav a:focus{background:#eaf0f5;color:var(--navy2)}
+    .ticker{background:#fff;border-bottom:1px solid var(--line);padding:9px 0}
+    .ticker .wrap{display:flex;align-items:center;gap:12px}
+    .ticker strong{background:var(--red);color:#fff;padding:3px 12px;border-radius:4px;white-space:nowrap}
+    .ticker a{color:var(--navy2);text-decoration:none}
+    .hero{padding:24px 0 12px}
+    .hero-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:18px}
+    .hero-main,.card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 5px 18px #10243a08}
+    .hero-main{padding:clamp(20px,4vw,34px);background:linear-gradient(135deg,#fff,#edf3f8)}
+    .eyebrow{color:#936a15;font-weight:bold;font-size:.88rem}
+    h2{margin:0 0 12px;color:var(--navy);font-size:clamp(1.25rem,3vw,1.8rem)}
+    .hero-main p{color:#465466;margin:0 0 18px}
+    .actions{display:flex;flex-wrap:wrap;gap:10px}
+    .btn{display:inline-block;text-decoration:none;background:var(--navy);color:#fff;padding:10px 16px;border-radius:8px;font-weight:bold}
+    .btn.gold{background:var(--gold);color:#172331}
+    .btn.light{background:#edf2f7;color:var(--navy);border:1px solid var(--line)}
+    .hero-side{display:flex;flex-direction:column;gap:14px}
+    .promo{padding:14px;text-align:center}
+    .promo img{display:block;max-width:100%;height:auto;max-height:230px;object-fit:contain;margin:auto;border-radius:8px}
+    .promo p{margin:8px 0 0;color:var(--muted);font-size:.9rem}
+    .section{padding:18px 0}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:12px}
+    .section-head h2{margin:0}
+    .section-head a{color:var(--navy2);font-weight:bold;text-decoration:none}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .card{padding:18px}
+    .card .icon{font-size:1.6rem}
+    .card h3{margin:5px 0 8px;color:var(--navy);font-size:1.12rem}
+    .card p{margin:0 0 12px;color:var(--muted);font-size:.95rem}
+    .card a.more{color:#8a6416;font-weight:bold;text-decoration:none}
+    .edition{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .edition .card{display:flex;flex-direction:column;align-items:flex-start}
+    .edition .card .btn{margin-top:auto}
+    .image-slot{width:100%;min-height:120px;background:#edf2f6;border:1px dashed #c4ced8;border-radius:8px;display:grid;place-items:center;color:#6b7786;text-align:center;padding:12px;margin:8px 0}
+    .image-slot img{max-width:100%;max-height:350px;object-fit:contain}
+    .about{background:#eaf0f5;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:24px 0;margin-top:18px}
+    .about-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:20px}
+    .about p{margin:0;color:#435265}
+    .qrbox{text-align:center;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px}
+    .qrbox img{width:150px;max-width:100%;height:auto}
+    .social{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+    .social a{background:#fff;border:1px solid var(--line);padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--navy);font-weight:bold}
+    footer{background:#091827;color:#d8e3ee;padding:22px 0;margin-top:0;font-size:.9rem}
+    footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .small{font-size:.85rem;color:var(--muted)}
+    @media(max-width:760px){.hero-grid,.about-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.edition{grid-template-columns:1fr}.brand{align-items:flex-start}.brand img{width:60px;height:60px}.ticker .wrap{align-items:flex-start}.ticker strong{font-size:.85rem}}
+  </style>
+</head>
+<body>
+  <div class="topline"><div class="wrap"><span>شبكة أبو الأنوف الإعلامية</span><span id="today-date">الخبر من مصدره… والتحقق قبل النشر</span></div></div>
+  <header>
+    <div class="wrap brand">
+      <img src="logo.png" alt="شعار شبكة أبو الأنوف الإعلامية" onerror="this.style.display='none'">
+      <div>
+        <h1>شبكة أبو الأنوف الإعلامية</h1>
+        <p>الموقع الإخباري والصحيفة المصوّرة والنشرة اليمنية اليومية</p>
+      </div>
+    </div>
+  </header>
+  <nav aria-label="القائمة الرئيسية"><div class="wrap navrow">
+    <a href="#home">الرئيسية</a><a href="#politics">سياسة</a><a href="#field">ميداني</a><a href="#rights">حقوق وتعليم</a><a href="#education">التعليم</a><a href="#analysis">ما وراء الخبر</a><a href="#reports">تقارير</a><a href="archive.html">الأرشيف</a><a href="#about">عن الشبكة</a>
+  </div></nav>
+  <div class="ticker"><div class="wrap"><strong>آخر المستجدات</strong><a href="edition-2026-10-24.html">تابع أحدث المواد المنشورة في الموقع عبر النشرة اليومية والأرشيف.</a></div></div>
+
+  <main id="home" class="wrap">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-main">
+          <div class="eyebrow">النشرة اليمنية اليومية</div>
+          <h2>أخبار اليمن في متابعة يومية</h2>
+          <p>تغطية إخبارية وتقارير وملفات تعليمية وحقوقية، مع إتاحة النشرة الإلكترونية والصحيفة المصوّرة وأرشيف الأعداد السابقة من مكان واحد.</p>
+          <div class="actions">
+            <a class="btn gold" href="edition-2026-10-24.html">فتح النشرة اليومية</a>
+            <a class="btn" href="archive.html">تصفح الأرشيف</a>
+            <a class="btn light" href="#analysis">ما وراء الخبر</a>
+          </div>
+          <p class="small" style="margin-top:14px">ملاحظة: رابط النشرة هنا مضبوط على صفحة 24 أكتوبر 2026 الموجودة ضمن روابط العمل السابقة. حدّثه عند نشر عدد أحدث.</p>
+        </div>
+        <div class="hero-side">
+          <div class="card promo">
+            <img src="promo-network-fixed.jpg" alt="الإعلان الترويجي لشبكة أبو الأنوف الإعلامية" onerror="this.closest('.promo').style.display='none'">
+            <p>شبكة أبو الأنوف الإعلامية</p>
+          </div>
+          <div class="card promo">
+            <img src="promo-end-no-date-change.jpg" alt="الإعلان الترويجي الثابت" onerror="this.closest('.promo').style.display='none'">
+            <p>الإعلان الترويجي</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="politics" class="section">
+      <div class="section-head"><h2>أقسام الموقع</h2><a href="archive.html">جميع المواد ←</a></div>
+      <div class="cards">
+        <article class="card"><div class="icon">📰</div><h3>الأخبار السياسية</h3><p>متابعة التطورات السياسية اليمنية والإقليمية مع الإحالة إلى المصادر المتاحة.</p><a class="more" href="edition-2026-10-24.html">متابعة النشرة ←</a></article>
+        <article id="field" class="card"><div class="icon">📍</div><h3>الأخبار الميدانية</h3><p>مساحة لمتابعة المستجدات الميدانية والإنسانية المنشورة في الأعداد اليومية.</p><a class="more" href="edition-2026-10-24.html">قراءة المواد ←</a></article>
+        <article id="rights" class="card"><div class="icon">⚖️</div><h3>الحقوق والتعليم</h3><p>متابعة قضايا المعلمين والحقوق التعليمية والملفات الإنسانية ذات الصلة.</p><a class="more" href="edition-2026-10-24.html">قراءة الملف ←</a></article>
+        <article id="education" class="card"><div class="icon">🎓</div><h3>الملف التعليمي</h3><p>قضايا التعليم والمعلمين والمدارس والسياسات التعليمية في اليمن.</p><a class="more" href="edition-2026-10-24.html">استعراض الملف ←</a></article>
+        <article id="analysis" class="card"><div class="icon">🔎</div><h3>ما وراء الخبر</h3><p>قراءة تحليلية للسياقات والآثار والانعكاسات، مع التمييز بين الخبر والرأي والتحليل.</p><a class="more" href="edition-2026-10-24.html#analysis">فتح قسم التحليل ←</a></article>
+        <article id="reports" class="card"><div class="icon">📚</div><h3>التقارير والتحقيقات</h3><p>تقارير ومواد معمّقة وملفات خاصة تنشرها الشبكة.</p><a class="more" href="archive.html">تصفح الأرشيف ←</a></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>النشرة والصحيفة المصوّرة</h2></div>
+      <div class="edition">
+        <article class="card">
+          <h3>النشرة اليمنية اليومية</h3>
+          <p>افتح النسخة الإلكترونية للعدد المرتبط حاليًا بالموقع، أو انتقل إلى الأرشيف لاختيار عدد آخر.</p>
+          <a class="btn" href="edition-2026-10-24.html">فتح النشرة الإلكترونية</a>
+        </article>
+        <article class="card">
+          <h3>الصحيفة المصوّرة</h3>
+          <p>مساحة مخصصة لعرض صورة الصحيفة عند رفع ملف العدد وربطه. لا يُعرض ملف غير متأكد من وجوده حتى لا تظهر شاشة سوداء أو صورة مكسورة.</p>
+          <div class="image-slot">
+            <span>ضع هنا رابط صورة الصحيفة المصوّرة للعدد الحالي بعد رفعها إلى المستودع.</span>
+          </div>
+          <a class="btn light" href="archive.html">اختيار عدد من الأرشيف</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>إعلانات الشبكة</h2></div>
+      <div class="cards">
+        <div class="card"><h3>الإعلان الترويجي</h3><div class="image-slot"><img src="promo-network-fixed.jpg" alt="الإعلان الترويجي للشبكة" onerror="this.parentElement.innerHTML='صورة الإعلان غير موجودة بهذا الاسم في المستودع.'"></div></div>
+        <div class="card"><h3>الإعلان الثابت</h3><div class="image-slot"><img src="promo-end-no-date-change.jpg" alt="الإعلان الثابت" onerror="this.parentElement.innerHTML='صورة الإعلان غير موجودة بهذا الاسم في المستودع.'"></div></div>
+        <div class="card"><h3>رمز الوصول للموقع</h3><div class="image-slot"><img src="qr-site.png" alt="رمز QR للموقع" onerror="this.parentElement.innerHTML='ارفع صورة qr-site.png إلى جذر المستودع لعرض رمز الموقع.'"></div><p class="small">يمكن مسح الرمز لفتح الموقع بعد التأكد من أن الصورة مرتبطة بالرابط العام الصحيح.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <section id="about" class="about">
+    <div class="wrap about-grid">
+      <div>
+        <h2>عن شبكة أبو الأنوف الإعلامية</h2>
+        <p>منصة إخبارية يمنية تهتم بمتابعة الأخبار والتقارير والملفات التعليمية والحقوقية، وتعمل على إسناد المعلومات إلى مصادرها والتحقق منها قبل النشر. تهدف الشبكة إلى تسهيل وصول القارئ إلى النشرة اليومية والأعداد السابقة والمواد التحليلية.</p>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener">فيسبوك</a>
+          <a href="https://www.youtube.com/@%D8%A3%D8%A8%D9%88%D8%A7%D9%84%D8%A7%D9%86%D9%88%D9%81" target="_blank" rel="noopener">يوتيوب</a>
+          <a href="https://wa.me/" target="_blank" rel="noopener">واتساب</a>
+          <a href="https://x.com/" target="_blank" rel="noopener">X</a>
+        </div>
+        <p class="small" style="margin-top:10px">استبدل روابط التواصل العامة بروابط صفحات الشبكة الرسمية قبل اعتماد النشر.</p>
+      </div>
+      <div class="qrbox">
+        <h3>الوصول السريع للموقع</h3>
+        <img src="qr-site.png" alt="رمز QR للموقع" onerror="this.style.display='none'">
+        <p class="small">رابط الموقع الموحد:</p>
+        <a href="https://abwalanwf-wq.github.io/Yemen-news-2026-10-02/">abwalanwf-wq.github.io/Yemen-news-2026-10-02/</a>
+      </div>
+    </div>
+  </section>
+
+  <footer><div class="wrap"><span>© شبكة أبو الأنوف الإعلامية</span><span>الخبر من مصدره… والتحقق قبل النشر</span><a href="#home">العودة إلى الأعلى ↑</a></div></footer>
+  <script>
+    (function(){
+      const d = new Date();
+      const opts = {year:'numeric',month:'long',day:'numeric'};
+      const el = document.getElementById('today-date');
+      if(el) el.textContent = 'اليوم: ' + d.toLocaleDateString('ar', opts) + ' | الخبر من مصدره… والتحقق قبل النشر';
+    })();
+  </script>
+</body>
+</html>
