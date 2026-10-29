@@ -7,36 +7,64 @@
 <meta name="description" content="شبكة أبو الأنوف الإعلامية: أخبار اليمن، النشرة الإلكترونية، الصحيفة المصورة، التقارير والتحليلات.">
 <meta name="theme-color" content="#071a29">
 <link rel="canonical" href="https://abwalanwf-wq.github.io/Yemen-news-2026-10-02/">
+
 <style>
 :root{--navy:#071a29;--blue:#153d59;--gold:#e5bd42;--paper:#f7f8fa;--ink:#17232e;--red:#bd202e}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#e9eef4;color:var(--ink);font-family:Arial,Tahoma,sans-serif;line-height:1.9}
-img{max-width:100%;height:auto}a{overflow-wrap:anywhere;color:#075c9b}.wrap{width:100%;max-width:1000px;margin:auto;padding:10px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#e9eef4;color:var(--ink);font-family:Arial,Tahoma,sans-serif;line-height:1.9}
+img{max-width:100%;height:auto}
+a{overflow-wrap:anywhere;color:#075c9b}
+.wrap{width:100%;max-width:1000px;margin:auto;padding:10px}
 .hero,.card,footer{background:var(--paper);border:2px solid var(--gold);border-radius:14px;padding:16px;margin:14px 0;overflow-wrap:anywhere}
 .hero{background:linear-gradient(135deg,#153d59,#071a29);color:white;text-align:center}
 .brand-logo{display:block;width:clamp(120px,32vw,210px);max-height:230px;object-fit:contain;margin:0 auto 12px;background:#fff;border-radius:12px;padding:5px}
-.hero h1{color:var(--gold);margin:5px 0}.hero h2{color:#fff;margin:0}.hero p{margin:6px 0}
-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:14px 0}.btn{display:inline-block;background:var(--blue);color:#fff!important;text-decoration:none;padding:8px 13px;border-radius:9px;font-weight:bold;text-align:center}
-h2{color:var(--red);margin-top:0}h3{color:var(--blue)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.grid .card{margin:0;border-color:#d9e3ef}.small{font-size:.92rem;color:#53606b}.note{background:#fff4d4;border-right:5px solid var(--gold);padding:10px 13px;border-radius:8px}
-.promo{display:block;width:100%;height:auto;border-radius:10px}.qr{display:block;width:190px;max-width:75%;margin:12px auto;background:#fff;padding:7px;border:1px solid #ddd;border-radius:8px}
+.hero h1{color:var(--gold);margin:5px 0}
+.hero h2{color:#fff;margin:0}
+.hero p{margin:6px 0}
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:14px 0}
+.btn{display:inline-block;background:var(--blue);color:#fff!important;text-decoration:none;padding:8px 13px;border-radius:9px;font-weight:bold;text-align:center}
+.btn:hover{background:#205778}
+h2{color:var(--red);margin-top:0}
+h3{color:var(--blue)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.grid .card{margin:0;border-color:#d9e3ef}
+.small{font-size:.92rem;color:#53606b}
+.note{background:#fff4d4;border-right:5px solid var(--gold);padding:10px 13px;border-radius:8px}
+.promo{display:block;width:100%;height:auto;border-radius:10px}
+.qr{display:block;width:190px;max-width:75%;margin:12px auto;background:#fff;padding:7px;border:1px solid #ddd;border-radius:8px}
+.newspaper-preview{display:block;width:100%;height:auto;border:1px solid #d9e3ef;border-radius:10px;background:#fff;margin:12px auto}
+.image-link{display:block;text-decoration:none}
 .ticker{display:flex;align-items:stretch;direction:rtl;min-width:0;background:var(--navy);border:2px solid var(--gold);border-radius:12px;overflow:hidden;margin:14px 0;color:#fff}
 .ticker-label{display:flex;align-items:center;justify-content:center;background:var(--red);color:#fff;font-weight:bold;padding:8px 12px;white-space:nowrap}
-.ticker-window{flex:1;min-width:0;overflow:hidden;display:flex;align-items:center}.ticker-track{display:flex;flex-direction:row;direction:ltr;width:max-content;white-space:nowrap;animation:scroll 34s linear infinite}.ticker-group{direction:rtl;display:flex;align-items:center;gap:26px;padding:12px 20px;white-space:nowrap;min-width:max-content}.ticker-group a{color:#fff;text-decoration:none;font-weight:bold;white-space:nowrap}.ticker-group a:before{content:"◆";color:var(--gold);margin-left:8px}.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-window{flex:1;min-width:0;overflow:hidden;display:flex;align-items:center}
+.ticker-track{display:flex;flex-direction:row;direction:ltr;width:max-content;white-space:nowrap;animation:scroll 34s linear infinite}
+.ticker-group{direction:rtl;display:flex;align-items:center;gap:26px;padding:12px 20px;white-space:nowrap;min-width:max-content}
+.ticker-group a{color:#fff;text-decoration:none;font-weight:bold;white-space:nowrap}
+.ticker-group a:before{content:"◆";color:var(--gold);margin-left:8px}
+.ticker:hover .ticker-track{animation-play-state:paused}
 @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media(max-width:600px){.wrap{padding:6px}.hero,.card{padding:12px}.btn{padding:8px 10px}.ticker-label{font-size:.85rem;padding:7px}.ticker-group{gap:18px}}
+@media(max-width:600px){
+.wrap{padding:6px}
+.hero,.card{padding:12px}
+.btn{padding:8px 10px}
+.ticker-label{font-size:.85rem;padding:7px}
+.ticker-group{gap:18px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker-track{animation:none}}
 </style>
 </head>
 <body>
 <main class="wrap" id="top">
 <header class="hero">
-  <!-- الشعار موجود في المجلد الرئيسي للمستودع، بجوار index.html -->
-  <img class="brand-logo" src="./logo.png" alt="شعار شبكة أبو الأنوف الإعلامية"
-       onerror="this.onerror=null;this.src='./logo-network.png';">
+  <img class="brand-logo" src="./logo.png" alt="شعار شبكة أبو الأنوف الإعلامية" onerror="this.onerror=null;this.src='./logo-network.png';">
   <h1>شبكة أبو الأنوف الإعلامية</h1>
   <h2>النشرة اليمنية اليومية</h2>
   <p><strong>صوت الوعي والمسؤولية — وعي يصنع الفرق</strong></p>
   <p>الخبر من مصدره… والتحقق قبل النشر</p>
   <nav aria-label="روابط سريعة">
     <a class="btn" href="#pictured-edition">الصحيفة المصورة</a>
+    <a class="btn" href="#electronic-newsletter">النشرة الإلكترونية</a>
     <a class="btn" href="#newspaper-sections">أقسام الصحيفة الإلكترونية</a>
     <a class="btn" href="analysis.html">ما وراء الخبر</a>
     <a class="btn" href="archive.html">أرشيف الأعداد</a>
@@ -47,14 +75,16 @@ h2{color:var(--red);margin-top:0}h3{color:var(--blue)}.grid{display:grid;grid-te
   <div class="ticker-label">آخر المستجدات</div>
   <div class="ticker-window"><div class="ticker-track">
     <div class="ticker-group">
-      <a href="#pictured-edition">الصحيفة المصورة — أحدث عدد</a>
+      <a href="./newspaper.html">الصحيفة المصورة — العدد 26، الأحد 25 أكتوبر</a>
+      <a href="./edition-2026-10-25.html">النشرة الإلكترونية اليومية — 25 أكتوبر</a>
       <a href="#newspaper-sections">الأخبار والتقارير والتحليلات</a>
       <a href="education.html">الملف التعليمي وحقوق المعلمين</a>
       <a href="analysis.html">ما وراء الخبر — قراءة وتحليل</a>
       <a href="archive.html">أرشيف النشرات اليومية</a>
     </div>
     <div class="ticker-group" aria-hidden="true">
-      <a href="#pictured-edition" tabindex="-1">الصحيفة المصورة — أحدث عدد</a>
+      <a href="./newspaper.html" tabindex="-1">الصحيفة المصورة — العدد 26، الأحد 25 أكتوبر</a>
+      <a href="./edition-2026-10-25.html" tabindex="-1">النشرة الإلكترونية اليومية — 25 أكتوبر</a>
       <a href="#newspaper-sections" tabindex="-1">الأخبار والتقارير والتحليلات</a>
       <a href="education.html" tabindex="-1">الملف التعليمي وحقوق المعلمين</a>
       <a href="analysis.html" tabindex="-1">ما وراء الخبر — قراءة وتحليل</a>
@@ -89,21 +119,42 @@ h2{color:var(--red);margin-top:0}h3{color:var(--blue)}.grid{display:grid;grid-te
 
 <section class="card" id="pictured-edition">
   <h2>الصحيفة اليمنية المصورة</h2>
-  <p>افتح صفحة العدد المصور من الرابط التالي:</p>
-  <a class="btn" href="newspaper-2026-10-25.html">فتح الصحيفة المصورة</a>
+  <p>العدد (26) — الأحد 25 أكتوبر 2026م.</p>
+
+  <!-- مفتاح الصورة مستقل: يفتح ملف الصورة الكامل فقط -->
+  <a class="image-link" href="./newspaper-2026-10-25.png" target="_blank" rel="noopener" aria-label="فتح صورة العدد 26 بالحجم الكامل">
+    <img class="newspaper-preview" src="./newspaper-2026-10-25.png" alt="الصحيفة اليمنية المصورة — العدد 26، الأحد 25 أكتوبر 2026م" loading="lazy">
+  </a>
+
+  <p style="text-align:center">
+    <!-- هذا المفتاح يفتح صورة العدد وحدها بالحجم الكامل -->
+    <a class="btn" href="./newspaper-2026-10-25.png" target="_blank" rel="noopener">فتح صورة العدد 26 بالحجم الكامل</a>
+    <!-- مفتاح حفظ الصورة لا يتغير -->
+    <a class="btn" href="./newspaper-2026-10-25.png" download>حفظ صورة العدد 26</a>
+  </p>
+
+  <p class="small">الصورة مستقلة وتفتح وحدها بالحجم الكامل. زر «فتح الصحيفة المصوّرة كاملة» يفتح صفحة الصحيفة المستقلة، وليس الصورة.</p>
+  <div style="text-align:center;margin:16px auto">
+    <h3>رمز QR لفتح صورة العدد 26 مباشرة</h3>
+    <a href="./qr-image-issue-26.png" target="_blank" rel="noopener"><img src="./qr-image-issue-26.png" alt="رمز QR لفتح صورة العدد 26 بالحجم الكامل" style="width:170px;max-width:60%;height:auto;background:#fff;padding:8px;border:1px solid #ccd5df;border-radius:8px"></a>
+    <p><a class="btn" href="./qr-image-issue-26.png" download>حفظ رمز QR لصورة العدد 26</a></p>
+  </div>
+
+  <!-- هذا المفتاح في الموضع السفلي يفتح صفحة الصحيفة المصوّرة كاملة -->
+  <p style="text-align:center"><a class="btn" href="./newspaper.html">فتح الصحيفة المصوّرة كاملة</a></p>
+
   <h3>الإعلان الترويجي للشبكة</h3>
   <a href="./promo-network-fixed.jpg" target="_blank" rel="noopener">
-    <img class="promo" src="./promo-network-fixed.jpg" alt="الإعلان الترويجي لشبكة أبو الأنوف الإعلامية"
-         loading="lazy" onerror="this.onerror=null;this.alt='تعذر تحميل الإعلان: تحقق من وجود promo-network-fixed.jpg بجوار index.html';">
+    <img class="promo" src="./promo-network-fixed.jpg" alt="الإعلان الترويجي لشبكة أبو الأنوف الإعلامية" loading="lazy" onerror="this.onerror=null;this.alt='تعذر تحميل الإعلان: تحقق من وجود promo-network-fixed.jpg بجوار index.html';">
   </a>
   <p><a class="btn" href="./promo-network-fixed.jpg" download>حفظ الإعلان الترويجي</a></p>
 </section>
 
 <section class="card" id="electronic-newsletter">
   <h2>النشرة الإلكترونية اليومية</h2>
-  <p>تابع النشرات السابقة من صفحة الأرشيف.</p>
-  <a class="btn" href="edition-2026-10-24.html">قراءة عدد السبت 24 أكتوبر</a>
-  <a class="btn" href="archive.html">استعراض أرشيف الأعداد</a>
+  <p>اقرأ نشرة الأحد 25 أكتوبر 2026م، أو انتقل إلى الأرشيف للاطلاع على الأعداد السابقة.</p>
+  <p><a class="btn" href="./edition-2026-10-25.html">قراءة النشرة الإلكترونية — الأحد 25 أكتوبر</a></p>
+  <p><a class="btn" href="./archive.html">استعراض أرشيف الأعداد</a></p>
 </section>
 
 <section class="card" id="share">
@@ -111,19 +162,20 @@ h2{color:var(--red);margin-top:0}h3{color:var(--blue)}.grid{display:grid;grid-te
   <p><a href="https://abwalanwf-wq.github.io/Yemen-news-2026-10-02/">https://abwalanwf-wq.github.io/Yemen-news-2026-10-02/</a></p>
   <a class="btn" href="https://wa.me/?text=https%3A%2F%2Fabwalanwf-wq.github.io%2FYemen-news-2026-10-02%2F" target="_blank" rel="noopener">مشاركة عبر واتساب</a>
   <h3>رمز QR العام للموقع</h3>
-  <a href="./qr-site.png"><img class="qr" src="./qr-site.png" alt="رمز QR للرابط العام للموقع" loading="lazy"></a>
+  <a href="./qr-site.png" target="_blank" rel="noopener"><img class="qr" src="./qr-site.png" alt="رمز QR للرابط العام للموقع" loading="lazy"></a>
   <p style="text-align:center"><a href="./qr-site.png" download>حفظ رمز QR العام</a></p>
 </section>
 
 <section class="card" id="archive">
   <h2>أرشيف الأعداد</h2>
   <ul>
-    <li><a href="newspaper-2026-10-25.html">الأحد 25 أكتوبر 2026م — الصحيفة المصورة</a></li>
-    <li><a href="edition-2026-10-24.html">السبت 24 أكتوبر 2026م</a></li>
-    <li><a href="edition-2026-10-18.html">الأحد 18 أكتوبر 2026م</a></li>
-    <li><a href="edition-2026-10-16.html">الجمعة 16 أكتوبر 2026م</a></li>
+    <li><a href="./edition-2026-10-25.html">الأحد 25 أكتوبر 2026م — النشرة الإلكترونية</a></li>
+    <li><a href="./newspaper-2026-10-25.png" target="_blank" rel="noopener">الأحد 25 أكتوبر 2026م — صورة الصحيفة الرسمية</a></li>
+    <li><a href="./edition-2026-10-24.html">السبت 24 أكتوبر 2026م — النشرة الإلكترونية</a></li>
+    <li><a href="./edition-2026-10-18.html">الأحد 18 أكتوبر 2026م</a></li>
+    <li><a href="./edition-2026-10-16.html">الجمعة 16 أكتوبر 2026م</a></li>
   </ul>
-  <a class="btn" href="archive.html">فتح صفحة الأرشيف</a>
+  <a class="btn" href="./archive.html">فتح صفحة الأرشيف</a>
 </section>
 
 <footer style="background:var(--navy);color:white;text-align:center">
