@@ -1,2 +1,74 @@
-<?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/</loc><lastmod>2026-11-01</lastmod><priority>1.0</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/politics.html</loc><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/field.html</loc><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/rights-education.html</loc><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/education.html</loc><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/analysis.html</loc><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/reports.html</loc><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/archive.html</loc><lastmod>2026-11-01</lastmod><priority>0.9</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/about.html</loc><priority>0.6</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-11-01-approved.html</loc><lastmod>2026-11-01</lastmod><priority>0.9</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper-2026-11-01-approved.html</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper-2026-10-27-31.html</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper-2026-10-25.html</loc><lastmod>2026-10-27</lastmod><priority>0.7</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-24.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-22.html</loc><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper-2026-10-22.html</loc><priority>0.7</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-19.html</loc><priority>0.8</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-18.html</loc><priority>0.7</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-17-reviewed.html</loc><priority>0.7</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-16.html</loc><priority>0.7</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/index-fixed-2026-10-14-share-4.html</loc><priority>0.6</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-13.html</loc><priority>0.6</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-12.html</loc><priority>0.6</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/2026-10-10-taiz.html</loc><priority>0.6</priority></url><url><loc>https://abwalanwf-wq.github.io/abu-al-anouf/ma_waraa_article.html</loc><priority>0.7</priority></url></urlset>
+XML
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/archive.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-24.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-25.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-10-26.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/edition-2026-11-01-approved.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper-2026-10-24.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper-2026-10-25.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper-2026-10-26.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper-2026-10-27-31.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper-2026-10-31.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://abwalanwf-wq.github.io/abu-al-anouf/newspaper-2026-11-01-approved.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
