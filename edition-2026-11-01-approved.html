@@ -112,12 +112,31 @@ section.ticker:hover .track{
   section.ticker .group a{font-size:14px}
   section.ticker .track{animation-duration:58s !important}
 }
+
+/* هوية الشبكة والإعلانات */
+.brand-mark{display:block;width:min(190px,48%);height:auto;margin:0 auto 8px;filter:drop-shadow(0 3px 5px #0003)}
+.ad-block{margin:16px 0;text-align:center}
+.ad-block a{display:block;text-decoration:none}
+.ad-fixed{display:block;width:100%;height:auto;border:2px solid #d4b45f;border-radius:12px;box-shadow:0 4px 14px #071a2922}
+.ad-promo{display:block;width:min(100%,680px);height:auto;margin:0 auto;border:2px solid #d4b45f;border-radius:12px;box-shadow:0 4px 14px #071a2922}
+.ad-caption{margin:6px 0 0;color:#536675;font-size:.9rem;font-weight:bold}
+
+</style>
+
+<style>
+.share-panel{margin:22px auto;padding:16px;background:#f4f7fa;border:2px solid #d9bd64;border-radius:14px;text-align:center}
+.share-panel h2{margin:0 0 10px;color:#0c2438;font-size:1.15rem}
+.share-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.share-btn{display:inline-block;border:0;border-radius:9px;padding:10px 14px;background:#0c2438;color:#fff;text-decoration:none;font:700 14px Tahoma,Arial,sans-serif;cursor:pointer}
+.share-btn.gold{background:#9a7414}
+.share-hint{font-size:.82rem;color:#56616b;margin:10px 0 0}
 </style>
 </head>
 <body>
 <div class="wrap">
 <main class="wrap">
 <header class="hero">
+<img class="brand-mark" src="./abu-al-anouf-logo.png" alt="شعار شبكة أبو الأنوف الإعلامية"/>
 <div class="brand">شبكة أبو الأنوف الإعلامية</div>
 <h1>النشرة اليمنية اليومية</h1>
 <strong>الأحد 1 نوفمبر 2026م | العدد (33)</strong>
@@ -125,6 +144,12 @@ section.ticker:hover .track{
 <p>إعداد وتحرير: عبده سالم الفقيه</p>
 <nav><a class="btn" href="#top">الرئيسية</a><a class="btn" href="#politics">السياسة</a><a class="btn" href="#human">الملف الإنساني</a><a class="btn" href="#education">التعليم والحقوق</a><a class="btn" href="#analysis">ما وراء الخبر</a><a class="btn" href="./newspaper-2026-11-01-approved.html" target="_self">الصحيفة المصوّرة</a></nav>
 </header>
+<section class="ad-block" aria-label="الإعلان الثابت لشبكة أبو الأنوف">
+<a href="https://abwalanwf-wq.github.io/abu-al-anouf/" target="_blank" rel="noopener">
+<img class="ad-fixed" src="./ad-fixed-16x9.png" alt="الإعلان الثابت لشبكة أبو الأنوف الإعلامية — النشرة اليمنية اليومية"/>
+</a>
+<p class="ad-caption">شبكة أبو الأنوف الإعلامية | صوت الوعي والمسؤولية</p>
+</section>
 <section aria-label="الشريط الإخباري" class="ticker"><b>عاجل | أبرز المستجدات</b><div class="window"><div class="track"><div class="group">
 <a href="#human">الأمم المتحدة تطالب بتحقيق مستقل وشفاف في وفاة موظف حقوق الإنسان أثناء الاحتجاز</a>
 <a href="#human">برنامج الأمم المتحدة الإنمائي يعلن توسيع التعافي المبكر في عدن ولحج</a>
@@ -181,8 +206,61 @@ section.ticker:hover .track{
 <p>لكن التعافي لا ينفصل عن حماية المدنيين، وحرية العمل الإنساني، ومساءلة المسؤولين عن الانتهاكات، وتهيئة بيئة آمنة للتعليم والصحة. ومن هنا فإن وفاة موظف أممي أثناء الاحتجاز، واستمرار احتجاز العاملين، يضعان ضمانات الحماية والمساءلة في صدارة الأولويات.</p>
 <p><strong>الخلاصة:</strong> لا يمكن بناء تعافٍ مستدام من دون مؤسسات فاعلة، ومساءلة مستقلة، ووصول إنساني آمن، وخدمات عامة تحمي كرامة المواطن.</p>
 </section>
+<section class="ad-block card" aria-label="الإعلان الترويجي للصحيفة اليمنية المصورة">
+<a href="./newspaper-2026-11-01-approved.html" target="_self">
+<img class="ad-promo" src="./ad-promo-number-33.png" alt="الإعلان الترويجي للصحيفة اليمنية المصورة — العدد 33"/>
+</a>
+<p class="ad-caption">افتح الصحيفة المصوّرة — العدد 33 | الأحد 1 نوفمبر 2026م</p>
+</section>
 <section class="card"><h2>منهجية النشرة</h2><p>تُنسب المعلومات والأرقام إلى الجهات التي أعلنتها، ويُفصل بين الخبر والتقدير والتحليل. قد تتغير الأرقام مع صدور تحديثات لاحقة؛ لذا يُرجى الرجوع إلى المصادر الأصلية المرتبطة بكل مادة.</p>
 <p><a class="btn" href="./newspaper-2026-11-01-approved.html" target="_self">انتقل إلى الصحيفة المصوّرة &mdash; العدد 33</a></p></section>
+
+<section class="share-panel" aria-label="مشاركة العدد">
+<h2>شارك العدد مع الآخرين</h2>
+<div class="share-actions">
+<button class="share-btn gold" type="button" id="nativeShare">مشاركة من الهاتف</button>
+<a class="share-btn" id="shareWhatsApp" href="#" target="_blank" rel="noopener">واتساب</a>
+<a class="share-btn" id="shareTelegram" href="#" target="_blank" rel="noopener">تيليجرام</a>
+<a class="share-btn" id="shareFacebook" href="#" target="_blank" rel="noopener">فيسبوك</a>
+<a class="share-btn" id="shareX" href="#" target="_blank" rel="noopener">منصة X</a>
+<button class="share-btn" type="button" id="copyShareLink">نسخ رابط العدد</button>
+</div>
+<p class="share-hint" id="shareStatus" aria-live="polite">يمكنك مشاركة رابط العدد كاملاً، وليس صورة منفردة.</p>
+</section>
+<script>
+(function(){
+ const pageUrl=window.location.href;
+ const pageTitle=document.title || 'شبكة أبو الأنوف الإعلامية';
+ const text=pageTitle+' — شبكة أبو الأنوف الإعلامية';
+ const enc=encodeURIComponent;
+ const set=(id,url)=>{const el=document.getElementById(id);if(el)el.href=url;};
+ set('shareWhatsApp','https://api.whatsapp.com/send?text='+enc(text+' '+pageUrl));
+ set('shareTelegram','https://t.me/share/url?url='+enc(pageUrl)+'&text='+enc(text));
+ set('shareFacebook','https://www.facebook.com/sharer/sharer.php?u='+enc(pageUrl));
+ set('shareX','https://twitter.com/intent/tweet?url='+enc(pageUrl)+'&text='+enc(text));
+ const status=document.getElementById('shareStatus');
+ const native=document.getElementById('nativeShare');
+ if(native)native.addEventListener('click',async()=>{
+   if(navigator.share){
+     try{await navigator.share({title:pageTitle,text:text,url:pageUrl});}
+     catch(e){if(e.name!=='AbortError'&&status)status.textContent='تعذرت المشاركة من الهاتف؛ استخدم أحد أزرار المشاركة الأخرى.';}
+   }else if(status){status.textContent='المشاركة المباشرة غير مدعومة في هذا المتصفح؛ استخدم واتساب أو زر نسخ الرابط.';}
+ });
+ const copy=document.getElementById('copyShareLink');
+ if(copy)copy.addEventListener('click',async()=>{
+   try{
+     if(navigator.clipboard && window.isSecureContext){await navigator.clipboard.writeText(pageUrl);}
+     else{
+       const field=document.createElement('textarea');field.value=pageUrl;document.body.appendChild(field);field.select();
+       const ok=document.execCommand('copy');field.remove();if(!ok)throw new Error('copy failed');
+     }
+     if(status)status.textContent='تم نسخ رابط العدد. يمكنك لصقه في أي تطبيق.';
+   }catch(e){if(status)status.textContent='لم يتم النسخ تلقائياً؛ انسخ رابط الصفحة من شريط العنوان.';}
+ });
+})();
+</script>
+
+<p class="archive-access" style="text-align:center;margin:18px auto"><a class="btn" href="./archive.html" style="display:inline-block;background:#0c2438;color:#fff;text-decoration:none;padding:11px 18px;border:1px solid #e5bd42;border-radius:9px;font-weight:800">أرشيف الأعداد السابقة</a></p>
 <footer><strong>شبكة أبو الأنوف الإعلامية</strong><br/>الخبر من مصدره&hellip; والتحقق قبل النشر<br/>إعداد وتحرير: عبده سالم الفقيه</footer>
 </main>
 </div>
