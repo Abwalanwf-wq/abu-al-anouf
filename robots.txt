@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abwalanwf-wq.github.io/abu-al-anouf/sitemap.xml
