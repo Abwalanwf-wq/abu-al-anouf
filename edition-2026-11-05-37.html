@@ -45,17 +45,18 @@ figcaption{font-size:.82rem;color:#687680;margin-top:-8px;margin-bottom:8px}
 .audio-tools button{border:0;border-radius:8px;padding:10px 14px;background:#0b2b42;color:white;font:inherit;font-weight:bold;cursor:pointer}
 .audio-tools button.stop{background:#e9eef1;color:#163449}
 .media-box{background:#071a29;color:#fff;border-radius:12px;padding:16px;margin:14px 0}
+.newsletter-ad{display:block;max-width:620px;margin:22px auto;text-align:center;background:#fff;border:1px solid #e0d9cb;border-radius:14px;padding:12px}.newsletter-ad img{display:block;width:100%;height:auto;max-height:460px;object-fit:contain;border-radius:10px}.analysis-image{display:block;width:100%;max-width:900px;height:auto;margin:14px auto;border-radius:12px}
 .kicker{color:#89672d;font-size:.85rem;font-weight:bold}
 @media(max-width:700px){.story-grid{grid-template-columns:1fr}.story-photo{margin-top:8px}
 .stats{grid-template-columns:repeat(2,1fr)}.logo{width:76px;height:76px}.panel{padding:16px}.ticker{align-items:flex-start;flex-direction:column}.tickerline{width:100%}}
 @media print{body{background:#fff}.panel{box-shadow:none;break-inside:avoid}nav,.btn{display:none}header,footer{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 .issue-nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px;padding:12px;background:#e9e3d6;border:1px solid #d7b56d;border-radius:12px}.issue-nav a{margin:0}\n</style>
-<script defer src="./assets/ticker.js"></script>
+<script defer src="./ticker.js"></script>
 </head>
 <body>
 <header>
 <div class="mast">
-<img class="logo" src="./assets/abu-al-anouf-logo.png" alt="شعار شبكة أبو الأنوف الإعلامية">
+<img class="logo" src="./abu-al-anouf-logo.png" alt="شعار شبكة أبو الأنوف الإعلامية">
 <div><h1>النشرة اليمنية اليومية</h1><p>شبكة أبو الأنوف الإعلامية</p><p>صوت الوعي والمسؤولية — وعي يصنع الفرق</p></div>
 </div>
 </header>
@@ -92,13 +93,17 @@ figcaption{font-size:.82rem;color:#687680;margin-top:-8px;margin-bottom:8px}
 <h2>المشهد المصوّر للعدد</h2>
 <p class="meta">الصورة الميدانية الأولى من المادة الصحفية التي أُرسلت في المحادثة. بقية الصور التوضيحية مقتطفات من تصميم الصحيفة المصوّرة، وليست صوراً ميدانية مستقلة.</p>
 <div class="story-grid">
-<article class="story-card"><div class="kicker">تغطية الجزيرة — تعز ولحج</div><img src="./assets/taiz-frontline-ap.jpg" alt="صورة ميدانية من تقرير الجزيرة عن تعز"><figcaption>الصورة كما وردت في تقرير الجزيرة، منسوبة إلى أسوشيتد برس.</figcaption><h3>تعز ولحج.. تطورات ميدانية وتداعيات إنسانية</h3><p>عرض صحفي للتطورات المعلنة وأثرها على المدنيين والخدمات، مع نسبة المعلومات إلى مصادرها.</p><a class="btn" href="https://www.aljazeera.net/news/2026/11/5/قتيلة-و5-مصابات-في-تعز-والقوات-الحكومية" target="_blank" rel="noopener">فتح تقرير الجزيرة الأصلي</a></article>
-<article class="story-card"><div class="kicker">الجوف وتعز</div><img src="./assets/visual-jawf-taiz.jpg" alt="صورة توضيحية من تصميم الصحيفة المصورة"><figcaption>صورة توضيحية من تصميم العدد المصوّر.</figcaption><h3>تطورات ميدانية وتداعيات إنسانية</h3><p>متابعة المستجدات المعلنة في الجوف وتعز ولحج، مع الفصل بين الوقائع والتصريحات.</p><a class="btn" href="#fronts">قراءة التفاصيل</a></article>
-<article class="story-card"><div class="kicker">الملف الصحي — تعز</div><img src="./assets/visual-health.jpg" alt="صورة توضيحية للملف الصحي"><figcaption>صورة توضيحية من تصميم العدد المصوّر.</figcaption><h3>الضغط على القطاع الصحي</h3><p>تقرير عن تراكم النفايات والمخاطر الصحية والحالات المرضية التي أوردتها المصادر.</p><a class="btn" href="#taiz">قراءة التفاصيل</a></article>
-<article class="story-card"><div class="kicker">الملف الإنساني — مأرب</div><img src="./assets/visual-humanitarian.jpg" alt="صورة توضيحية للمساعدات الطبية"><figcaption>صورة توضيحية من تصميم العدد المصوّر.</figcaption><h3>14 شاحنة أدوية ومستلزمات طبية</h3><p>قافلة دعم للقطاع الصحي في مأرب وفق ما نشره يمن مونيتور.</p><a class="btn" href="#humanitarian">قراءة التفاصيل</a></article>
-<article class="story-card"><div class="kicker">التعليم والمعلمون</div><img src="./assets/visual-education.jpg" alt="صورة توضيحية لقطاع التعليم"><figcaption>صورة توضيحية من تصميم العدد المصوّر.</figcaption><h3>ملف التعليم والمعلمين</h3><p>موضوع متابعة يحتاج إلى النصوص الأصلية والتصريحات الموثقة قبل اعتماد تفاصيله.</p><a class="btn" href="#education">الانتقال إلى الملف</a></article>
-<article class="story-card"><div class="kicker">النزوح والاقتصاد</div><img src="./assets/visual-displacement.jpg" alt="صورة توضيحية للنزوح"><figcaption>صورة توضيحية من تصميم العدد المصوّر.</figcaption><h3>النازحون والاستجابة الإنسانية</h3><p>متابعة الاحتياجات الإنسانية، مع إبقاء الأرقام رهناً بالمصادر الأصلية.</p><a class="btn" href="#economy">قراءة الملف</a></article>
+<article class="story-card"><div class="kicker">تغطية الجزيرة — تعز ولحج</div><img src="./taiz-frontline-ap.jpg" alt="صورة ميدانية من تقرير الجزيرة عن تعز"><figcaption>الصورة كما وردت في تقرير الجزيرة، منسوبة إلى أسوشيتد برس.</figcaption><h3>تعز ولحج.. تطورات ميدانية وتداعيات إنسانية</h3><p>عرض صحفي للتطورات المعلنة وأثرها على المدنيين والخدمات، مع نسبة المعلومات إلى مصادرها.</p><a class="btn" href="https://www.aljazeera.net/news/2026/11/5/قتيلة-و5-مصابات-في-تعز-والقوات-الحكومية" target="_blank" rel="noopener">فتح تقرير الجزيرة الأصلي</a></article>
+<article class="story-card"><div class="kicker">الجوف وتعز</div><img src="./visual-jawf-taiz.jpg" alt="صورة توضيحية من تصميم الصحيفة المصورة"><figcaption>صورة توضيحية من تصميم العدد المصوّر.</figcaption><h3>تطورات ميدانية وتداعيات إنسانية</h3><p>متابعة المستجدات المعلنة في الجوف وتعز ولحج، مع الفصل بين الوقائع والتصريحات.</p><a class="btn" href="#fronts">قراءة التفاصيل</a></article>
+<article class="story-card"><div class="kicker">الملف الصحي — تعز</div><img src="./visual-health.jpg" alt="صورة توضيحية للملف الصحي"><figcaption>صورة توضيحية من تصميم العدد المصوّر.</figcaption><h3>الضغط على القطاع الصحي</h3><p>تقرير عن تراكم النفايات والمخاطر الصحية والحالات المرضية التي أوردتها المصادر.</p><a class="btn" href="#taiz">قراءة التفاصيل</a></article>
+<article class="story-card"><div class="kicker">الملف الإنساني — مأرب</div><img src="./visual-humanitarian.jpg" alt="صورة توضيحية للمساعدات الطبية"><figcaption>صورة توضيحية من تصميم العدد المصوّر.</figcaption><h3>14 شاحنة أدوية ومستلزمات طبية</h3><p>قافلة دعم للقطاع الصحي في مأرب وفق ما نشره يمن مونيتور.</p><a class="btn" href="#humanitarian">قراءة التفاصيل</a></article>
+<article class="story-card"><div class="kicker">التعليم والمعلمون</div><img src="./visual-education.jpg" alt="صورة توضيحية لقطاع التعليم"><figcaption>صورة توضيحية من تصميم العدد المصوّر.</figcaption><h3>ملف التعليم والمعلمين</h3><p>موضوع متابعة يحتاج إلى النصوص الأصلية والتصريحات الموثقة قبل اعتماد تفاصيله.</p><a class="btn" href="#education">الانتقال إلى الملف</a></article>
+<article class="story-card"><div class="kicker">النزوح والاقتصاد</div><img src="./visual-displacement.jpg" alt="صورة توضيحية للنزوح"><figcaption>صورة توضيحية من تصميم العدد المصوّر.</figcaption><h3>النازحون والاستجابة الإنسانية</h3><p>متابعة الاحتياجات الإنسانية، مع إبقاء الأرقام رهناً بالمصادر الأصلية.</p><a class="btn" href="#economy">قراءة الملف</a></article>
 </div></section>
+
+<section class="newsletter-ad" aria-label="الإعلان المستمر لشبكة أبو الأنوف">
+<img src="./abu-al-anouf-ad-vertical.png" alt="الإعلان المستمر لشبكة أبو الأنوف الإعلامية">
+</section>
 
 <section class="panel" id="fronts">
 <div class="kicker">أخبار الميدان</div><h2>الجوف | مستجدات ميدانية وانعكاساتها على السكان</h2>
@@ -162,6 +167,7 @@ figcaption{font-size:.82rem;color:#687680;margin-top:-8px;margin-bottom:8px}
 
 <section class="panel" id="analysis">
 <div class="meta">ما وراء الخبر</div>
+<img class="analysis-image" src="./ma-waraa-alkhabar.png" alt="الصورة المصاحبة لتحليل ما وراء الخبر">
 <h2>دلالات تطورات الجوف وتعز</h2>
 <p class="lead">لا تُقاس التطورات الميدانية بمجرد إعلان التقدم أو استعادة موقع، بل بما إذا كانت ستتحول إلى حماية للمدنيين، وتأمين للطرق، واستعادة للخدمات، وتماسك في مؤسسات الدولة.</p>
 <h3>الجوف: اختبار تثبيت المؤسسات</h3>

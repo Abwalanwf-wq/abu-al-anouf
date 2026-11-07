@@ -25,18 +25,18 @@ body{margin:0;background:#f7f4ec;color:#172b38;font:16px/1.9 Tahoma,Arial,sans-s
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .card h3{margin:0 0 8px;color:#0b2639}
 .card a{color:#795b26;font-weight:bold}
-footer{background:#071a29;color:#eadfca;padding:20px 4%;text-align:center;border-top:3px solid #d7b56d}
+.ad-wide{display:block;width:100%;height:auto;border-radius:12px;border:2px solid #d7b56d;margin:18px auto}.ad-vertical{display:block;width:min(100%,430px);height:auto;border-radius:12px;border:2px solid #d7b56d;margin:18px auto}footer{background:#071a29;color:#eadfca;padding:20px 4%;text-align:center;border-top:3px solid #d7b56d}
 @media(max-width:650px){
 .grid{grid-template-columns:1fr}
 .head img{width:76px;height:76px}
 }
 </style>
-<script defer src="./assets/ticker.js"></script>
+<script defer src="./ticker.js"></script>
 </head>
 <body>
 <header class="top">
 <div class="head">
-<img src="./assets/abu-al-anouf-logo.png" alt="الشعار الأصلي لشبكة أبو الأنوف الإعلامية">
+<img src="./abu-al-anouf-logo.png" alt="الشعار الأصلي لشبكة أبو الأنوف الإعلامية">
 <div>
 <h1>النشرة اليمنية اليومية</h1>
 <p>شبكة أبو الأنوف الإعلامية</p>
@@ -46,7 +46,8 @@ footer{background:#071a29;color:#eadfca;padding:20px 4%;text-align:center;border
 </header>
 
 <main class="wrap">
-<section class="hero"><small>الجمعة 6 نوفمبر 2026م | عدد الجمعة (38)</small><h2>عدد الجمعة — النشرة اليمنية اليومية</h2><p class="muted">تغطية تعز والجوف ولحج ومأرب، والملف الحقوقي والتحركات الأوروبية والأحوال الجوية، مع التغطية الخاصة و«ما وراء الخبر» والتحليل السياسي.</p><div class="actions"><a class="btn gold" href="./issue-2026-11-06-38.html">فتح صفحة عدد الجمعة 38</a><a class="btn" href="./edition-2026-11-06-38.html">قراءة النشرة الإلكترونية</a><a class="btn" href="./issue-2026-11-05-06-37-38.html">العدد الجامع الخميس والجمعة (37–38)</a></div></section>
+<section class="card" style="text-align:center"><a href="./edition-2026-11-06-38.html"><img class="ad-wide" src="./abu-al-anouf-ad-wide.png" alt="إعلان شبكة أبو الأنوف الإعلامية"></a></section>
+<section class="hero"><small>الجمعة 6 نوفمبر 2026م | عدد الجمعة (38)</small><h2>عدد الجمعة — النشرة اليمنية اليومية</h2><p class="muted">تغطية تعز والجوف ولحج ومأرب، والملف الحقوقي والتحركات الأوروبية والأحوال الجوية، مع التغطية الخاصة و«ما وراء الخبر» والتحليل السياسي.</p><div class="actions"><a class="btn gold" href="./edition-2026-11-06-38.html">فتح عدد الجمعة كاملاً</a><a class="btn" href="./issue-2026-11-05-06-37-38.html">العدد الجامع الخميس والجمعة (37–38)</a></div></section>
 
 <section class="hero">
 <small>الخميس 5 نوفمبر 2026م | العدد (37)</small>
@@ -80,13 +81,14 @@ footer{background:#071a29;color:#eadfca;padding:20px 4%;text-align:center;border
 </article>
 </section>
 
+<section class="card" style="text-align:center"><img class="ad-vertical" src="./abu-al-anouf-ad-vertical.png" alt="الإعلان التعريفي لشبكة أبو الأنوف الإعلامية"></section>
 <section class="card">
 <h3>المصادر والتحقق</h3>
 <p class="muted">تُنسب الأرقام والتقارير إلى الجهات التي أعلنتها، ويُفصل بين الخبر والتقدير والتحليل. افتح كل مادة للوصول إلى إحالتها الأصلية.</p>
 </section>
 
 <section class="card" style="text-align:center">
-<h3>ما وراء الخبر</h3>
+<h3>ما وراء الخبر</h3><img class="ad-vertical" src="./ma-waraa-alkhabar.png" alt="الصورة التعريفية لقسم ما وراء الخبر">
 <h2>تعز.. مدينة تبحث عن طريق إلى الحياة</h2>
 <p class="muted">قراءة في أثر إغلاق الطرق وتعطل وصول الغذاء والدواء والوقود، ومسؤولية تحويل التحذيرات الإنسانية إلى نتائج ملموسة.</p>
 <a class="btn gold" href="./edition-2026-11-06-38.html">اقرأ ما وراء الخبر — عدد الجمعة 38</a>
