@@ -32,6 +32,19 @@ body{margin:0;background:#f7f4ec;color:#172b38;font:16px/1.9 Tahoma,Arial,sans-s
 }
 </style>
 <script defer src="./ticker.js"></script>
+
+<style>
+.site-tools{direction:rtl;display:flex;flex-wrap:wrap;justify-content:center;gap:8px;padding:12px 4%;background:#eef2f5;border-bottom:2px solid #d7b56d}
+.site-tools a,.site-tools button{appearance:none;border:0;border-radius:7px;background:#0b2639;color:#fff;padding:9px 13px;font: bold 14px Tahoma,Arial,sans-serif;text-decoration:none;cursor:pointer}
+.site-tools a:nth-of-type(2){background:#8a682e}
+.site-tools button:focus,.site-tools a:focus{outline:3px solid #d7b56d;outline-offset:2px}
+@media(max-width:520px){.site-tools{gap:6px;padding:9px 6px}.site-tools a,.site-tools button{font-size:12px;padding:8px 9px;flex:1 1 28%}}
+</style>
+<script>
+function copySiteLink(){const u=location.href;if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(()=>alert('تم نسخ رابط الصفحة')).catch(()=>prompt('انسخ الرابط:',u));}else{prompt('انسخ الرابط:',u)}}
+function shareSite(){const d={title:document.title,text:'شبكة أبو الأنوف الإعلامية — النشرة اليمنية اليومية',url:location.href};if(navigator.share){navigator.share(d).catch(()=>{});}else{copySiteLink();}}
+</script>
+
 </head>
 <body>
 <header class="top">
@@ -44,6 +57,14 @@ body{margin:0;background:#f7f4ec;color:#172b38;font:16px/1.9 Tahoma,Arial,sans-s
 </div>
 </div>
 </header>
+<nav class="site-tools" aria-label="أدوات التنقل والمشاركة">
+ <button type="button" onclick="shareSite()">مشاركة الهاتف</button>
+ <button type="button" onclick="copySiteLink()">نسخ الرابط</button>
+ <a href="./index.html">الوضع الرئيسي</a>
+ <a href="./issue-2026-11-07-08-39-40.html">النسخة الحالية 39–40</a>
+ <button type="button" onclick="history.back()">رجوع</button>
+</nav>
+
 
 <main class="wrap">
 <section class="card" style="text-align:center"><img class="ad-static" src="./promo-network-fixed (7).jpg" alt="الإعلان الثابت لشبكة أبو الأنوف الإعلامية"></section>
@@ -102,6 +123,15 @@ body{margin:0;background:#f7f4ec;color:#172b38;font:16px/1.9 Tahoma,Arial,sans-s
 </div>
 </section>
 </main>
+
+
+<nav class="site-tools" aria-label="أدوات التنقل والمشاركة">
+ <button type="button" onclick="shareSite()">مشاركة الهاتف</button>
+ <button type="button" onclick="copySiteLink()">نسخ الرابط</button>
+ <a href="./index.html">الوضع الرئيسي</a>
+ <a href="./issue-2026-11-07-08-39-40.html">النسخة الحالية 39–40</a>
+ <button type="button" onclick="history.back()">رجوع</button>
+</nav>
 
 <footer>
 شبكة أبو الأنوف الإعلامية — النشرة اليمنية اليومية<br>
