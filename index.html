@@ -32,19 +32,6 @@ body{margin:0;background:#f7f4ec;color:#172b38;font:16px/1.9 Tahoma,Arial,sans-s
 }
 </style>
 <script defer src="./ticker.js"></script>
-
-<style>
-.site-tools{direction:rtl;display:flex;flex-wrap:wrap;justify-content:center;gap:8px;padding:12px 4%;background:#eef2f5;border-bottom:2px solid #d7b56d}
-.site-tools a,.site-tools button{appearance:none;border:0;border-radius:7px;background:#0b2639;color:#fff;padding:9px 13px;font: bold 14px Tahoma,Arial,sans-serif;text-decoration:none;cursor:pointer}
-.site-tools a:nth-of-type(2){background:#8a682e}
-.site-tools button:focus,.site-tools a:focus{outline:3px solid #d7b56d;outline-offset:2px}
-@media(max-width:520px){.site-tools{gap:6px;padding:9px 6px}.site-tools a,.site-tools button{font-size:12px;padding:8px 9px;flex:1 1 28%}}
-</style>
-<script>
-function copySiteLink(){const u=location.href;if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(()=>alert('تم نسخ رابط الصفحة')).catch(()=>prompt('انسخ الرابط:',u));}else{prompt('انسخ الرابط:',u)}}
-function shareSite(){const d={title:document.title,text:'شبكة أبو الأنوف الإعلامية — النشرة اليمنية اليومية',url:location.href};if(navigator.share){navigator.share(d).catch(()=>{});}else{copySiteLink();}}
-</script>
-
 </head>
 <body>
 <header class="top">
@@ -57,49 +44,39 @@ function shareSite(){const d={title:document.title,text:'شبكة أبو الأ�
 </div>
 </div>
 </header>
-<nav class="site-tools" aria-label="أدوات التنقل والمشاركة">
- <button type="button" onclick="shareSite()">مشاركة الهاتف</button>
- <button type="button" onclick="copySiteLink()">نسخ الرابط</button>
- <a href="./index.html">الوضع الرئيسي</a>
- <a href="./issue-2026-11-07-08-39-40.html">النسخة الحالية 39–40</a>
- <button type="button" onclick="history.back()">رجوع</button>
-</nav>
-
 
 <main class="wrap">
-<section class="card" style="text-align:center"><img class="ad-static" src="./promo-network-fixed (7).jpg" alt="الإعلان الثابت لشبكة أبو الأنوف الإعلامية"></section>
-<section class="hero"><small>السبت والأحد 7–8 نوفمبر 2026م | العدد الجامع (39–40)</small><h2>العدد الجامع — النشرة اليمنية اليومية</h2><p class="muted">تغطية العدد المزدوج 39–40، مع الأخبار والتقارير والتحليلات والملفات الخاصة وروابط المصادر الأصلية.</p><div class="actions"><a class="btn gold" href="./issue-2026-11-07-08-39-40.html">فتح العدد الجامع 39–40</a><a class="btn" href="./edition-2026-11-07-08-39-40.html">النشرة الإلكترونية</a><a class="btn" href="./newspaper-2026-11-07-08-39-40.html">الصحيفة المصوّرة</a></div></section>
+<section class="card" style="text-align:center"><img class="ad-static" src="./issue41-promo-network-fixed (7).jpg" alt="الإعلان الثابت لشبكة أبو الأنوف الإعلامية"></section>
+<section class="hero"><small>الاثنين 9 نوفمبر 2026م | العدد الجامع (41)</small><h2>العدد الجامع — النشرة اليمنية اليومية</h2><p class="muted">تغطية العدد 41، مع الأخبار والتقارير والتحليلات والملفات الخاصة وروابط المصادر الأصلية.</p><div class="actions"><a class="btn gold" href="./issue-2026-11-09-41.html">فتح العدد الجامع 41</a><a class="btn" href="./edition-2026-11-09-41.html">النشرة الإلكترونية</a><a class="btn" href="./newspaper-2026-11-09-41.html">الصحيفة المصوّرة</a></div></section>
 
 <section class="hero">
-<small>الخميس 5 نوفمبر 2026م | العدد (37)</small>
-<h2>العدد (37) — النشرة الإلكترونية والصحيفة المصوّرة</h2>
-<p class="muted">الصحيفة المصوّرة كاملة مع غلاف مستقل يحمل شعار شبكة أبو الأنوف ورمز QR مباشر.</p>
-<div class="actions"><a class="btn gold" href="./issue-2026-11-05-06-37-38.html">فتح العدد الجامع 37–38 — الرابط الموحد</a><a class="btn" href="./archive.html">أرشيف الأعداد</a></div>
+<small>العدد السابق | 5–6 نوفمبر 2026م | العدد الجامع (37–38)</small>
+<h2>العدد السابق (37–38)</h2>
+<p class="muted">يمكن الرجوع إلى العدد السابق من خلال الأرشيف.</p>
+<div class="actions"><a class="btn gold" href="./issue-2026-11-05-06-37-38.html">فتح العدد الجامع 37–38</a><a class="btn" href="./archive.html">أرشيف الأعداد</a></div>
 </section>
 <section class="hero">
-<h2>مواد العدد وروابط المشاركة</h2>
+<h2>مشاركة العدد والتنقل</h2>
+<p class="muted">استخدم زر المشاركة لإرسال رابط العدد مباشرة عبر تطبيقات الهاتف المتاحة لديك.</p>
 <div class="actions">
+<button class="btn gold" id="shareIssue" type="button" style="border:0;cursor:pointer;font:inherit;font-weight:bold">مشاركة العدد من الهاتف</button>
 <a class="btn" href="./archive.html">أرشيف الأعداد</a>
-<a class="btn gold" href="https://www.facebook.com/share/1Lz4TEpRyU/" target="_blank" rel="noopener">صفحة الشبكة على فيسبوك</a>
-<a class="btn" href="https://whatsapp.com/channel/0029VaiSgc9EAKW8zgRiKr02" target="_blank" rel="noopener">قناة واتساب</a>
-<a class="btn" href="https://x.com/abdusalem812" target="_blank" rel="noopener">حساب X</a>
-<a class="btn" href="https://www.youtube.com/@ابوالأنوف" target="_blank" rel="noopener">قناة يوتيوب</a>
-<a class="btn gold" href="./videos.html">مكتبة الفيديوهات</a>
+<a class="btn" href="./videos.html">مكتبة الفيديوهات</a>
 <a class="btn" href="./live.html">البث المباشر</a>
-</div>
+</div><p id="shareStatus" class="muted" aria-live="polite"></p>
 </section>
 
 <section class="grid">
 <article class="card">
 <h3>النشرة الإلكترونية</h3>
 <p class="muted">الأخبار والتقارير والتحليلات مع إحالات المصادر الأصلية.</p>
-<a href="./edition-2026-11-07-08-39-40.html">فتح العدد الجامع 39–40 ←</a>
+<a href="./edition-2026-11-09-41.html">فتح العدد الجامع 41 ←</a>
 </article>
 <article class="card" style="text-align:center">
-<h3>الصحيفة اليمنية المصوّرة — العدد 39–40</h3>
-<a href="./newspaper-2026-11-07-08-39-40.html" aria-label="فتح الصحيفة المصوّرة للعدد 39–40">فتح الصحيفة المصوّرة للعدد 39–40 كاملة ←</a>
+<h3>الصحيفة اليمنية المصوّرة — العدد 41</h3>
+<a href="./newspaper-2026-11-09-41.html" aria-label="فتح الصحيفة المصوّرة للعدد 41">فتح الصحيفة المصوّرة للعدد 41 كاملة ←</a>
 <p class="muted">تفتح صفحة الصحيفة المصوّرة الخاصة بالعدد مباشرة.</p>
-<a href="./newspaper-2026-11-07-08-39-40.html">فتح الصحيفة المصوّرة كاملة ←</a>
+<a href="./newspaper-2026-11-09-41.html">فتح الصحيفة المصوّرة كاملة ←</a>
 </article>
 </section>
 
@@ -110,32 +87,39 @@ function shareSite(){const d={title:document.title,text:'شبكة أبو الأ�
 
 <section class="card" style="text-align:center">
 <h3>ما وراء الخبر</h3>
-<h2>تعز.. مدينة تبحث عن طريق إلى الحياة</h2>
+<h2>اليمن بين اتساع المواجهة العسكرية ومخاطر تدويل الصراع</h2>
 <p class="muted">قراءة في أثر إغلاق الطرق وتعطل وصول الغذاء والدواء والوقود، ومسؤولية تحويل التحذيرات الإنسانية إلى نتائج ملموسة.</p>
-<a class="btn gold" href="./edition-2026-11-07-08-39-40.html#analysis">اقرأ ما وراء الخبر — العدد 39–40</a>
+<a class="btn gold" href="./edition-2026-11-09-41.html#analysis">اقرأ ما وراء الخبر — العدد 41</a>
 </section>
 
 <section class="card" style="text-align:center">
-<h3>شارك النشرة مع الآخرين</h3>
+<h3>دليل المنصات ومشاركة العدد</h3>
+<p class="muted">روابط الدليل تفتح قنوات الشبكة، وأزرار المشاركة ترسل رابط العدد 41 إلى المنصة المختارة.</p>
 <div class="actions" style="justify-content:center">
-<a class="btn gold" href="https://wa.me/?text=النشرة اليمنية اليومية العدد الجامع 39–40 https%3A%2F%2Fabwalanwf-wq.github.io%2Fabu-al-anouf%2Fissue-2026-11-07-08-39-40.html">مشاركة عبر واتساب</a>
+<a class="btn" href="https://www.youtube.com/@%D8%A3%D8%A8%D9%88%D8%A7%D9%84%D8%A7%D9%86%D9%88%D9%81" target="_blank" rel="noopener">دليل يوتيوب — قناة الشبكة</a>
+<a class="btn" href="https://t.me/+f0g8Bzx2szJiYmI0" target="_blank" rel="noopener">دليل تيليجرام — قناة الشبكة</a>
+<a class="btn" href="./videos.html">مكتبة الفيديوهات</a>
+<a class="btn" href="./live.html">البث المباشر</a>
 <a class="btn" href="./archive.html">الأرشيف</a>
+<a class="btn" href="./index.html">الموقع الرسمي</a>
 </div>
+<hr style="border:0;border-top:1px solid #ded7c7;margin:18px 0">
+<h3>شارك العدد 41 مباشرة</h3>
+<div class="actions" style="justify-content:center">
+<a class="btn gold" href="https://wa.me/?text=%D8%A7%D9%84%D9%86%D8%B4%D8%B1%D8%A9%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9%20%E2%80%94%20%D8%A7%D9%84%D8%B9%D8%AF%D8%AF%2041%20https%3A%2F%2Fabwalanwf-wq.github.io%2Fabu-al-anouf%2Fissue-2026-11-09-41.html" target="_blank" rel="noopener">مشاركة واتساب</a>
+<a class="btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fabwalanwf-wq.github.io%2Fabu-al-anouf%2Fissue-2026-11-09-41.html" target="_blank" rel="noopener">مشاركة فيسبوك</a>
+<a class="btn" href="https://t.me/share/url?url=https%3A%2F%2Fabwalanwf-wq.github.io%2Fabu-al-anouf%2Fissue-2026-11-09-41.html&text=%D8%A7%D9%84%D8%B9%D8%AF%D8%AF%2041%20%E2%80%94%20%D8%A7%D9%84%D9%86%D8%B4%D8%B1%D8%A9%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9" target="_blank" rel="noopener">مشاركة تيليجرام</a>
+<a class="btn" href="https://twitter.com/intent/tweet?text=%D8%A7%D9%84%D9%86%D8%B4%D8%B1%D8%A9%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9%20%E2%80%94%20%D8%A7%D9%84%D8%B9%D8%AF%D8%AF%2041&url=https%3A%2F%2Fabwalanwf-wq.github.io%2Fabu-al-anouf%2Fissue-2026-11-09-41.html" target="_blank" rel="noopener">مشاركة منصة X</a>
+<button class="btn" id="shareIssue" type="button" style="border:0;cursor:pointer;font:inherit;font-weight:bold">مشاركة عبر الهاتف</button>
+</div><p id="shareStatus" class="muted" aria-live="polite"></p>
 </section>
 </main>
-
-
-<nav class="site-tools" aria-label="أدوات التنقل والمشاركة">
- <button type="button" onclick="shareSite()">مشاركة الهاتف</button>
- <button type="button" onclick="copySiteLink()">نسخ الرابط</button>
- <a href="./index.html">الوضع الرئيسي</a>
- <a href="./issue-2026-11-07-08-39-40.html">النسخة الحالية 39–40</a>
- <button type="button" onclick="history.back()">رجوع</button>
-</nav>
 
 <footer>
 شبكة أبو الأنوف الإعلامية — النشرة اليمنية اليومية<br>
 الخبر من مصدره… والتحقق قبل النشر
 </footer>
-</body>
+<script>
+(function(){const b=document.getElementById('shareIssue');const status=document.getElementById('shareStatus');if(!b)return;const url='https://abwalanwf-wq.github.io/abu-al-anouf/issue-2026-11-09-41.html';const data={title:'النشرة اليمنية اليومية — العدد 41',text:'شبكة أبو الأنوف الإعلامية — العدد الجامع 41',url};b.addEventListener('click',async()=>{try{if(navigator.share){await navigator.share(data);status.textContent='تم فتح قائمة المشاركة في هاتفك.';}else if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(url);status.textContent='نُسخ رابط العدد؛ يمكنك لصقه في أي تطبيق.';}else{status.textContent='انسخ رابط العدد من شريط العنوان لمشاركته.';}}catch(e){if(e&&e.name==='AbortError')return;status.textContent='تعذرت المشاركة المباشرة؛ يمكنك نسخ رابط العدد ومشاركته.';}});})();
+</script></body>
 </html>
