@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>النشرة اليمنية | الثلاثاء 13 أكتوبر 2026م — شبكة أبو الأنوف الإعلامية</title>
+<meta name="description" content="النشرة اليمنية اليومية لشبكة أبو الأنوف الإعلامية، الثلاثاء 13 أكتوبر 2026م، مع روابط المصادر وسجل التحقق.">
+<meta property="og:title" content="النشرة اليمنية | الثلاثاء 13 أكتوبر 2026م">
+<meta property="og:description" content="أبرز المستجدات اليمنية والمصادر الأصلية والتحقق التحريري.">
+<meta property="og:url" content="https://abwalanwf-wq.github.io/Yemen-news-2026-10-02/">
+<meta name="theme-color" content="#071a29">
+<style>
+:root{--navy:#071a29;--blue:#153d59;--gold:#e5bd42;--red:#a21d2b;--paper:#f4f5f7;--ink:#17232e}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:12px}
+body{margin:0;background:var(--navy);color:var(--ink);font-family:Arial,Tahoma,sans-serif;line-height:1.9}
+.wrap{max-width:960px;margin:auto;padding:12px}
+.hero,.card{background:var(--paper);border:3px solid var(--gold);border-radius:16px;padding:18px;margin:14px 0}
+.hero{text-align:center;background:var(--blue);color:#fff}.hero h1{color:#f3cb54;margin:4px;font-size:clamp(1.6rem,5vw,2.3rem)}
+.card h2{color:var(--red);margin-top:0}a{color:#075c9b;overflow-wrap:anywhere}
+.btn{display:inline-block;background:var(--blue);color:#fff!important;text-decoration:none;padding:9px 13px;margin:5px 2px;border-radius:10px;font-weight:bold;border:0;cursor:pointer;font:inherit}
+.tag{display:inline-block;color:#765300;background:#fff0bf;padding:2px 10px;border-radius:20px}
+.status{background:#fff4d4;border-right:5px solid var(--gold);padding:12px;border-radius:8px}
+footer{text-align:center;background:var(--blue);color:#fff;padding:18px;border:2px solid var(--gold);border-radius:14px;margin:16px 0}
+li{margin:8px 0}.qr{display:block;width:220px;height:220px;max-width:75%;object-fit:contain;margin:12px auto;background:#fff;padding:8px;border-radius:8px}
+.poster{border:2px solid var(--gold);background:linear-gradient(145deg,#071a29,#153d59);color:white;text-align:center;border-radius:14px;padding:22px}
+.poster h2{color:#f3cb54}.contents a{display:block}
+@media(max-width:600px){.wrap{padding:7px}.hero,.card{padding:13px}.btn{display:block;text-align:center}}
+@media print{body{background:white}.wrap{max-width:none}.btn,.shareline{display:none!important}.hero,.card,footer{break-inside:avoid}}
+</style></head><body><main class="wrap" id="top">
+<header class="hero"><h1>النشرة اليمنية اليومية</h1><strong>الثلاثاء 13 أكتوبر 2026م</strong>
+<p>مستجدات اليمن | الشأن الإنساني | أخبار محلية وإقليمية | تحقق تحريري</p>
+<p><b>شبكة أبو الأنوف الإعلامية</b><br>الخبر من مصدره… والتحقق قبل النشر</p><p>إعداد وتحرير: عبده سالم الفقيه</p></header>
+<section class="card poster"><h2>موجز اليمن اليوم</h2><p><strong>الثلاثاء 13 أكتوبر 2026م</strong></p><p>أخبار موثقة • تفاصيل ومصادر • قراءة وتحليل</p><p><b>شبكة أبو الأنوف الإعلامية</b></p><p>عبده سالم الفقيه</p></section>
+<section class="card"><h2>افتتاحية العدد</h2><p>تتابع نشرة اليوم أبرز التطورات المنشورة بشأن التصعيد الإقليمي المرتبط باليمن، والتطورات الميدانية التي أوردتها وسائل إعلام يمنية، إلى جانب الملفات الإنسانية والمحلية. تُنسب التصريحات والأرقام إلى الجهات التي أعلنتها أو إلى الوسائل التي نقلتها، ولا تُعرض الادعاءات المتنازع عليها بوصفها حقائق مستقلة محسومة.</p><p class="status"><b>تنبيه تحريري:</b> هذه النشرة تجمع تقارير منشورة حتى تاريخ الإصدار. قد تتغير المعلومات مع ورود تحديثات جديدة، ويجب الرجوع إلى المصادر الأصلية قبل إعادة تداول الأرقام أو التصريحات.</p></section>
+<section class="card contents"><h2>فهرس الأخبار — انتقل إلى التفاصيل</h2>
+<a class="btn" href="#riyadh">1. اعتراض صاروخ أُعلن عن إطلاقه باتجاه الرياض</a>
+<a class="btn" href="#khamis">2. تقرير عن اعتراض صاروخين باتجاه خميس مشيط</a>
+<a class="btn" href="#taiz">3. مستجدات المواجهات والأوضاع الإنسانية في تعز</a>
+<a class="btn" href="#migrants">4. حصيلة مأساة قارب المهاجرين قبالة جيبوتي</a>
+<a class="btn" href="#weather">5. تنبيه جوي بشأن الأمطار في عدد من المحافظات</a>
+<a class="btn" href="#analysis">6. ما وراء الخبر | قراءة أبو الأنوف</a></section>
+<article class="card" id="riyadh"><span class="tag">خبر إقليمي</span><h2>تقارير عن اعتراض صاروخ أُعلن عن إطلاقه باتجاه الرياض</h2>
+<p>أوردت وسائل إعلام عربية، الثلاثاء 13 أكتوبر، أن المتحدث باسم التحالف أعلن اعتراض وتدمير صاروخ باليستي قال إنه أُطلق باتجاه الرياض. ونقلت التغطية أيضًا إعلانًا حوثيًا عن استهداف المطار، بينما تبقى تفاصيل الحادثة والمسؤولية عنها منسوبة إلى الجهات التي أصدرت التصريحات والتقارير الناقلة.</p>
+<p class="status"><b>حالة التحقق:</b> خبر منقول عن تصريحات رسمية وتقارير صحفية؛ لا تنسب النشرة هذه التصريحات إلى تحقق ميداني مستقل.</p><h3>المصادر</h3><ul><li><a href="https://www.alaraby.co.uk/politics/اليمن-الحوثيون-يستهدفون-الرياض-وغارات-على-صنعاء-والجوف" target="_blank" rel="noopener">العربي الجديد — تقرير 13 أكتوبر 2026</a></li><li><a href="https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack-2026-10-11/" target="_blank" rel="noopener">رويترز — تغطية الهجمات على مطار الرياض، 11 أكتوبر</a></li></ul><a class="btn" href="#top">العودة إلى فهرس النشرة ↑</a></article>
+<article class="card" id="khamis"><span class="tag">خبر محلي / إقليمي</span><h2>يمن مونيتور: التحالف يعلن اعتراض صاروخين باتجاه خميس مشيط</h2>
+<p>نشر موقع يمن مونيتور في 13 أكتوبر خبرًا ينقل إعلان المتحدث باسم التحالف اعتراض وتدمير صاروخين باليستيين قالت القوات إنها أُطلقت باتجاه خميس مشيط. وتورد النشرة الخبر بصيغة الإسناد إلى الجهة المعلنة، من دون إضافة تفاصيل غير واردة في المصدر.</p><p class="status"><b>حالة التحقق:</b> تصريح منقول في تقرير صحفي؛ يُرجى مراجعة المصدر لأي تحديث لاحق.</p><h3>المصدر</h3><ul><li><a href="https://www.yemenmonitor.com/news" target="_blank" rel="noopener">يمن مونيتور — قسم الأخبار، 13 أكتوبر 2026</a></li></ul><a class="btn" href="#top">العودة إلى فهرس النشرة ↑</a></article>
+<article class="card" id="taiz"><span class="tag">الشأن اليمني</span><h2>تعز والجبهات: تقارير عن استمرار المواجهات ومخاوف إنسانية</h2>
+<p>أوردت تقارير يمنية خلال الأيام الأخيرة استمرار المواجهات في محاور من تعز ولحج، فيما حذرت تغطيات صحفية من تدهور الاحتياجات الإنسانية، بما في ذلك إمدادات الصحة والمياه والوقود. وتختلف التفاصيل بحسب تاريخ كل تقرير والجهة الناقلة؛ لذلك لا تُجمع الأرقام أو الادعاءات الميدانية المتباينة في حصيلة واحدة دون توثيق مستقل.</p><p class="status"><b>حالة التحقق:</b> ملخص للتغطيات المنشورة، وليس بيانًا ميدانيًا مستقلًا أو تحديثًا لحظيًا.</p><h3>المصادر</h3><ul><li><a href="https://www.yemenmonitor.com/" target="_blank" rel="noopener">يمن مونيتور — الأخبار المحلية</a></li><li><a href="https://www.aljazeera.com/where/yemen/" target="_blank" rel="noopener">الجزيرة — صفحة أخبار اليمن</a></li><li><a href="https://osesgy.unmissions.org/" target="_blank" rel="noopener">مكتب المبعوث الخاص للأمين العام للأمم المتحدة إلى اليمن</a></li></ul><a class="btn" href="#top">العودة إلى فهرس النشرة ↑</a></article>
+<article class="card" id="migrants"><span class="tag">ملف إنساني</span><h2>مأساة قارب المهاجرين قبالة جيبوتي: حصيلة منسوبة إلى تقارير دولية</h2>
+<p>تحدثت تقارير منشورة في 11 و12 أكتوبر عن انقلاب قارب كان يحمل مهاجرين في طريقه من جيبوتي إلى اليمن، وأوردت حصيلة مرتفعة للوفيات والمفقودين والناجين نقلًا عن بيانات إنسانية. وتظل الأرقام مرتبطة بتاريخ التقرير والجهة التي نقلتها، وقد تتغير مع استمرار أعمال البحث والتحديث.</p><p class="status"><b>حالة التحقق:</b> حصيلة إنسانية منسوبة إلى التقارير والمصادر التي نقلت بيانات المنظمة الدولية للهجرة؛ ينبغي مراجعة آخر تحديث قبل إعادة نشر رقم محدد.</p><h3>المصادر</h3><ul><li><a href="https://www.reuters.com/world/africa/109-migrants-including-15-children-dead-after-boat-djibouti-yemen-capsizes-un-2026-10-11/" target="_blank" rel="noopener">رويترز — حادثة قارب المهاجرين، 11 أكتوبر 2026</a></li><li><a href="https://apnews.com/article/a9e324ca36a7d9dee0e745c736c8aa95" target="_blank" rel="noopener">أسوشيتد برس — تغطية إنسانية، 12 أكتوبر 2026</a></li></ul><a class="btn" href="#top">العودة إلى فهرس النشرة ↑</a></article>
+<article class="card" id="weather"><span class="tag">خدمات عامة</span><h2>تحذير جوي من أمطار رعدية متفاوتة الشدة</h2>
+<p>نشرت قناة اليمن الفضائية، نقلًا عن مركز التنبؤات الجوية والإنذار المبكر، تحذيرًا من حالة ماطرة خلال الفترة 11–13 أكتوبر 2026، مع احتمال هطول أمطار رعدية متفاوتة الشدة وقد تكون غزيرة محليًا في عدد من المحافظات. يُنصح بمتابعة التحديثات الرسمية الصادرة عن الجهات المختصة.</p><p class="status"><b>حالة التحقق:</b> تحذير منقول عن جهة الأرصاد كما نشرته قناة اليمن الفضائية؛ راجع المصدر لمعرفة المحافظات والتحديثات الدقيقة.</p><h3>المصدر</h3><ul><li><a href="https://yementv.tv/" target="_blank" rel="noopener">قناة اليمن الفضائية — الموقع الرسمي</a></li></ul><a class="btn" href="#top">العودة إلى فهرس النشرة ↑</a></article>
+<section class="card" id="analysis"><h2>ما وراء الخبر | أبو الأنوف</h2>
+<figure style="margin:0 0 18px;text-align:center">
+<img src="ma_waraa_alkhabar_abualanwf.png" alt="هوية ركن ما وراء الخبر — أبو الأنوف، عبده سالم الفقيه" style="display:block;width:100%;height:auto;border:2px solid #e5bd42;border-radius:14px" loading="lazy">
+<figcaption style="font-size:.95rem;color:#46515c;margin-top:7px">إعداد وتقديم: عبده سالم الفقيه — قراءة أعمق… تحليل أوسع… رؤية أوضح.</figcaption>
+</figure><p>تُظهر التغطيات المنشورة تداخل ثلاثة مسارات ينبغي متابعتها بحذر: التصعيد الإقليمي وما قد يترتب عليه من مخاطر على المدنيين والطيران والبنية التحتية، واستمرار الضغوط الإنسانية داخل اليمن، والحاجة إلى معلومات ميدانية دقيقة ومتعددة المصادر. وفي مثل هذه الظروف، تصبح سرعة التحقق ونسبة كل تصريح إلى مصدره شرطًا أساسيًا للمهنية، لا تفصيلًا شكليًا.</p><p>هذه فقرة تحليلية تحريرية وليست خبرًا مستقلًا أو توقعًا محسومًا. وأي استنتاج بشأن اتجاهات التصعيد يظل مشروطًا بتطورات الأيام المقبلة وبما تنشره المصادر الموثوقة.</p></section>
+<section class="card"><h2>سجل التحقق التحريري</h2><ul><li>التصريحات العسكرية والسياسية منسوبة إلى الجهات التي أعلنتها أو الوسائل التي نقلتها.</li><li>لم تُضف أرقام ميدانية غير موثقة إلى حصيلة مستقلة.</li><li>المعلومات الإنسانية مرتبطة بتاريخ التقارير وقد تتغير.</li><li>يُنصح بفتح المصدر الأصلي قبل إعادة نشر الأرقام أو التصريحات.</li></ul></section>
+<section class="card"><h2>مشاركة النشرة ومتابعة الشبكة</h2><p>شارك رابط العدد الموحد أو انسخ الرابط لإرساله إلى الآخرين.</p>
+<div class="shareline"><button class="btn" onclick="sharePage()">مشاركة النشرة ↗</button><button class="btn" onclick="copyPage()">نسخ رابط النشرة</button><a class="btn" href="https://abwalanwf-wq.github.io/Yemen-news-2026-10-02/">فتح الموقع الرئيسي</a></div>
+<p>رمز QR للرابط الموحد:</p><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAGaAQAAAAAefbjOAAAC+0lEQVR4nO2cS46jMBCGvxoj9dJIfYA+irlaH2luAEfJAVqCZSSjmkXZQDqrnoxIBsoLxOuTbKX018tElB+P4dfPGXDIIYcccsghh44JSRkNdujWe+0sMNUXuqdMz6H9oaSqqiNAvApMDaQxLGFnUFVVvYX2m55D+0NTEQDtCaqfbX2eLm8qHZh4PG16Du0GNd+uJV0EkoIyzaJwFWV61vQc2h36bhE6tKBDOyLE3Ej6/X5fsXjxNTn0CFQtIiowAUnnxoSCqWGVh61dvPiaHPoH0GB5BUg3vSkQlDSGEkJ0zJZqPGt6Du2tEVsBiFexw9AiwCx6+8LLr8mhRyAsq0wjaA9YCpo0l6d9VFUdg2ofc8lS+xdfk0OPQEUjhjZkkgLE3OjQjlpdxNyoCcX0Vu+9+JocegQyixDil+jQlZtCBGV6zzA1yPLK7tNzaHeoeg1VhZitUqmqGe1jxhxGudQy3GscGSoWQVS1OGKxA7MSCxxiBmLGLeL4UPmRSzyppgerUBRTMSvBLeI0kHSAfq7dzbjkGmDNDYYP73SdASo1y+EjNxC/6mX71SgEBeYGCAg0effpObQ7VB3BeiPWsMKqEJR+KEtL3L3GoaFNrlF3QIQaVoxBq/+oZ16hOjy0RJbL7pi4TTyBpVw5emR5Bqhmn3ZWA4VtUTuYE7HKtmvE4aFbjbg5lOZGqEUJcIs4DSRdvApJr1Kdw9Uq1tozC4NtqAuefZ4AuteIWApWtuOyhyWEcK9xBqgGi7U0WZsbWxMgeV/jPNBN9jmG7a+/ZBg2knpf4wxQ9RpLPSJt2hz5vjPqFnF0aJN9ssYRphFQNCLVVqhrxPGhe68x1prlmlykxWhcIw4PbfZZmjEsGyvL83hTtXKNOB0kthO/hbXdZRHFZ1s26/93a3LoIShd3rTUqi4N9k2wfRisuWyX+O/W5NAPxvdvuupHXEEZPjKS+lK9FOKIpH7f6Tm0O3Sfa7AtV9rZJuT0OOLokPg/kznkkEMOOeSQQ38J/QEev5p7zNuVpQAAAABJRU5ErkJggg==" alt="رمز QR للموقع الرئيسي" loading="eager">
+<h3>روابط التواصل</h3><a class="btn" href="https://www.facebook.com/share/1Lz4TEpRyU/" target="_blank" rel="noopener">فيسبوك ↗</a><a class="btn" href="https://whatsapp.com/channel/0029VaiSgc9EAKW8zgRiKr02" target="_blank" rel="noopener">قناة واتساب ↗</a><a class="btn" href="https://x.com/abdusalem812" target="_blank" rel="noopener">منصة X ↗</a><a class="btn" href="https://youtube.com/channel/UCrnSmnjIMGL9h0CvWc9f_hw" target="_blank" rel="noopener">يوتيوب ↗</a></section>
+<footer>شبكة أبو الأنوف الإعلامية<br>الخبر من مصدره… والتحقق قبل النشر<br><small>نشرة الثلاثاء 13 أكتوبر 2026م</small><p><a href="editions/2026-10-12.html" style="color:#f3cb54">نشرة الاثنين 12 أكتوبر 2026م</a></p><a href="#top" style="color:#f3cb54">العودة إلى أعلى النشرة ↑</a></footer>
+</main><script>
+const pageUrl='https://abwalanwf-wq.github.io/Yemen-news-2026-10-02/';
+async function sharePage(){const d={title:document.title,text:'النشرة اليمنية اليومية — شبكة أبو الأنوف الإعلامية، الثلاثاء 13 أكتوبر 2026م',url:pageUrl};try{if(navigator.share){await navigator.share(d)}else{await copyPage()}}catch(e){if(e.name!=='AbortError'){await copyPage()}}}
+async function copyPage(){try{await navigator.clipboard.writeText(pageUrl);alert('تم نسخ رابط النشرة.')}catch(e){prompt('انسخ رابط النشرة:',pageUrl)}}
+</script></body></html>
