@@ -1,0 +1,14 @@
+/* Current-issue ticker: continuously visible, rightward movement; no focus freeze. */
+.ticker-shell{display:flex;align-items:center;height:52px;min-height:52px;overflow:hidden;background:#86182b;color:white;border-bottom:3px solid #d5ad57;direction:rtl}
+.ticker-title{flex:0 0 auto;display:flex;align-items:center;justify-content:center;min-height:49px;padding:0 12px;background:#082447;color:#f1d084;font:700 14px Tahoma,Arial,sans-serif;z-index:2;white-space:nowrap}
+.ticker-viewport{direction:ltr;position:relative;flex:1 1 0;min-width:0;height:49px;overflow:hidden}
+.ticker-track{position:absolute;left:0;top:0;display:flex!important;flex-wrap:nowrap!important;align-items:center!important;gap:0!important;white-space:nowrap!important;min-width:max-content!important;width:max-content!important;transform:translateX(-50%);height:49px;animation:ticker-current-right 160s linear infinite;animation-play-state:running;will-change:transform;direction:rtl;padding:0!important}
+.ticker-track>span{display:inline-flex!important;align-items:center;white-space:nowrap!important;flex:0 0 auto!important;color:#fff;font:700 15px Tahoma,Arial,sans-serif}
+.ticker-track .tick-sep{color:#f4cb70;margin:0 9px}
+.ticker-pause{flex:0 0 auto;margin:5px 7px;padding:5px 9px;min-height:32px;border:1px solid #dcb75e;background:#092c54;color:#fff;font:700 12px Tahoma,Arial,sans-serif;border-radius:6px;cursor:pointer}
+.ticker-pause:focus-visible{outline:2px solid white;outline-offset:2px}
+/* Kill historical focus-within pause rule: button focus must not freeze the ticker. */
+.ticker-shell:focus-within .ticker-track,.ticker-viewport:hover .ticker-track{animation-play-state:running}
+@keyframes ticker-current-right{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@media(max-width:600px){.ticker-title{font-size:12px;padding:0 6px}.ticker-pause{padding:4px 5px;font-size:11px;margin:4px}.ticker-track>span{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation-duration:300s!important}}
