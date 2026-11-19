@@ -1,0 +1,10 @@
+/* وحدة الواجهة الإخبارية الحية — مستقلة عن صفحات الأرشيف */
+#live-newsroom{margin:24px auto;max-width:1200px;padding:20px;border:1px solid #d0ae65;border-radius:14px;background:#f7f9fd;color:#0b2547}
+#live-newsroom .live-header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+#live-newsroom h2{margin:0;font-size:clamp(1.1rem,3vw,1.65rem)}
+#live-newsroom .live-updated{color:#536071;font-size:.85rem}
+.live-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:14px;margin-top:18px}
+.live-story{background:white;border:1px solid #e1e5ec;border-right:4px solid #bc902e;border-radius:10px;padding:15px;box-shadow:0 4px 12px rgba(16,37,62,.05)}
+.live-story time,.live-story .live-source{font-size:.78rem;color:#56687e}.live-story h3{font-size:1.05rem;line-height:1.6;margin:8px 0}.live-story p{line-height:1.85;font-size:.94rem;margin:8px 0}.live-story a{color:#1a579b}
+.live-news-link{display:inline-block;margin-top:14px;padding:7px 12px;border-radius:8px;background:#0b2547;color:#fff!important;text-decoration:none}
+.live-error{font-size:.85rem;color:#6e5560}.live-photo{width:100%;max-height:205px;object-fit:cover;border-radius:8px}.live-photo-credit{font-size:.7rem;color:#637080}

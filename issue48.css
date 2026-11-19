@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;600;700;800&display=swap');
+:root{--navy:#071d3a;--navy2:#103a6a;--gold:#d9ac52;--crimson:#781c2c;--paper:#f6f7fa;--ink:#102338}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'Noto Kufi Arabic',Tahoma,sans-serif;line-height:1.85}a{color:#145b9c;text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%}
+.brandhead{background:linear-gradient(120deg,#06172f,#123d78);border-bottom:5px solid var(--gold);color:white}.brandbar{max-width:1250px;margin:auto;padding:15px 20px;display:flex;gap:20px;align-items:center}.brandbar>a img{width:130px;height:130px;object-fit:contain;background:white;border-radius:12px}.brandbar h1{font-size:clamp(1.15rem,3vw,1.9rem);margin:5px 0;color:#fff}.brandbar p{font-size:.88rem;margin:0}.eyebrow{color:#f2ce81;font-family:Arial,sans-serif;font-size:.78rem}.issuebox{margin-right:auto;min-width:185px;display:grid;gap:3px;border:1px solid #caa45d;padding:9px;border-radius:10px;background:#041427}.issuebox strong{color:#fff;font-size:1.2rem}.issuebox span{color:#f4d284}.issuebox small{font-size:.7rem;color:#dce2e9}
+.navbar{background:#092c56;display:flex;gap:5px;justify-content:center;flex-wrap:wrap;padding:8px 10px}.navbar a{color:white;padding:7px 10px;font-size:.75rem;border-radius:7px}.navbar a.active,.navbar a:hover{background:#b48a36;color:#091d35;text-decoration:none}.ticker-shell{display:flex;background:#780e24;color:white;overflow:hidden;border-bottom:3px solid #dda74c}.ticker-title{white-space:nowrap;padding:8px 14px;background:#072d57;color:#fcd276;z-index:2}.ticker-viewport{flex:1;overflow:hidden;min-width:0}.ticker-track{display:flex;align-items:center;gap:20px;white-space:nowrap;width:max-content;min-width:max-content;animation:marquee48 240s linear infinite;padding:8px 0}.ticker-track>span:not(.tick-sep){display:inline-block;color:white;font-size:.8rem;font-weight:700}.tick-sep{color:#ffcf62}@keyframes marquee48{from{transform:translateX(var(--ticker-start,-100%))}to{transform:translateX(var(--ticker-end,100%))}}/* Preserve the horizontal animated ticker; users may pause it with the visible button. */
+.content{max-width:1220px;margin:0 auto;padding:22px 18px 45px}.hero{background:linear-gradient(135deg,#0a2f5c,#091c38);color:white;border-top:6px solid var(--gold);padding:29px 32px;border-radius:16px;margin-bottom:22px;box-shadow:0 7px 28px #101c3220}.hero h2{font-size:clamp(1.45rem,4vw,2.15rem);color:white;line-height:1.65;margin:8px 0}.hero p{color:#e1ecf6}.kicker{color:#edc779;font-weight:bold;font-size:.9rem}.section{background:white;border:1px solid #dde2e9;border-radius:14px;padding:23px;margin-bottom:25px;box-shadow:0 5px 17px #091e3820}.section>h2,.subheading{border-right:5px solid var(--gold);padding-right:12px;margin:0 0 21px;color:#0e3156;font-size:1.33rem}.poster{display:block;width:100%;border-radius:10px;border:2px solid #e3c681}.linktiles,.actions,.sources{display:flex;flex-wrap:wrap;gap:10px;margin:15px 0}.linktiles a,.actions a,.sources a,.btn{display:inline-block;border-radius:9px;border:1px solid #ba9346;padding:9px 13px;background:#113f74;color:white;font-weight:600;font-size:.85rem}.linktiles a:hover,.actions a:hover,.sources a:hover,.btn:hover{background:#bc9042;text-decoration:none;color:#092441}.cards,.paper-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,275px),1fr));gap:15px}.teaser{border:1px solid #e0e4eb;border-radius:10px;overflow:hidden;display:grid;background:#f9fbff}.teaser img{width:100%;aspect-ratio:2/1;object-fit:cover}.teaser b,.teaser small{padding:6px 12px}.teaser small{color:#697681}.report{display:grid;grid-template-columns:310px 1fr;gap:18px;border-bottom:1px solid #dbe2eb;padding:22px 0;align-items:start}.report:last-child{border:0}.report-art{display:block}.report-art img{display:block;width:100%;aspect-ratio:1.55;object-fit:cover;border-radius:9px}.report-art small{font-size:.65rem;color:#777;display:block}.report-body h3{font-size:1.16rem;line-height:1.6;margin:5px 0}.report-body p{margin:9px 0;font-size:.92rem}.tag{color:#8e293d;font-size:.73rem;font-weight:bold}.attribution{background:#f2f5f9;border-right:3px solid #c8a255;padding:7px 12px;font-size:.78rem!important}.status{border-radius:10px;color:#315d8c;font-size:.69rem}.actions a{font-size:.73rem;padding:6px 10px}.feature{display:grid;grid-template-columns:1fr 260px;gap:20px;align-items:center}.feature>img{width:100%;border-radius:12px}.feature h2{font-size:1.35rem}.tall-ad{max-width:350px;margin:auto}.tall-ad img{width:100%;height:auto}.wide-ad{display:block;max-width:900px;margin:auto;width:100%;border-radius:10px}.paper-card{background:#f9fbfe;border:1px solid #dce4ed;border-radius:12px;padding-bottom:14px;overflow:hidden;display:grid}.paper-card img{width:100%;aspect-ratio:1.55;object-fit:cover}.paper-card h3,.paper-card p,.paper-card small,.paper-card a,.paper-card .tag{padding:0 14px}.paper-card h3{font-size:1.01rem;margin:6px 0}.paper-card p{font-size:.78rem;margin:7px 0}.paper-card small{font-size:.69rem;color:#697585}.paper-card a{font-size:.74rem;align-self:end}.press-banner{padding:12px;color:#fff;background:#0b3664;margin-bottom:20px;border-radius:9px;font-weight:700;text-align:center}.analysis-brand{max-width:500px;display:block;margin:0 auto 28px}.analytic-item{margin:18px 0;padding:15px 23px;border-right:4px solid #b98b3a;background:#f7f9fc;border-radius:8px}.analytic-item h3{color:#0c365d;margin:0 0 10px}.analytic-item p{margin:0}.disclaimer{font-size:.76rem;color:#677181}.sharing{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.sharing button{border:0;background:#0c386b;color:#fff;padding:8px 12px;border-radius:7px;cursor:pointer;font:inherit;font-size:.8rem}.sharing button:hover{background:#bd9148}footer{background:#061b35;color:#fff;padding:20px}.ft{max-width:1220px;display:flex;align-items:center;gap:18px;margin:auto}.ft img{width:100px;border-radius:9px}.ft p{margin:2px;font-size:.77rem}.ft>a{margin-right:auto;color:#f1cd80}.ftlinks{max-width:1220px;margin:10px auto;display:flex;gap:15px;flex-wrap:wrap}.ftlinks a{color:#d4e4f5;font-size:.76rem}
+@media(max-width:760px){.brandbar{flex-wrap:wrap}.brandbar>a img{width:80px;height:80px}.issuebox{width:100%;min-width:0;margin:0}.report{grid-template-columns:1fr}.feature{grid-template-columns:1fr}.feature>img{max-width:270px}.section{padding:14px}.content{padding:12px}.hero{padding:18px}.navbar{justify-content:flex-start}.ticker-track{animation-duration:240s}.ft{flex-wrap:wrap}}
+
+/* Issue 48: mobile readability, faithful logos and no duplicate imagery */
+.ticker-pause{border:1px solid #d9b766;border-radius:5px;margin:5px 7px;background:#082646;color:#fff;font:700 .69rem Tahoma,sans-serif;padding:2px 7px;cursor:pointer;white-space:nowrap;align-self:center}
+.ticker-pause:focus-visible{outline:3px solid #fff}/* The ticker is paused only by its dedicated stop button. */
+.ticker-track{direction:rtl;flex-shrink:0;will-change:transform;animation-fill-mode:both}
+.brandbar>a img{display:block;aspect-ratio:1;object-fit:contain;background:#fff}
+.report-art img,.paper-card>img{object-position:center;aspect-ratio:1.8}
+.image-origin{font-size:.65rem;color:#5e6877;line-height:1.55;padding:8px 12px 0;display:block}
+.paper-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,355px),1fr));align-items:stretch;gap:20px}
+.paper-card{grid-template-rows:auto auto auto 1fr auto auto;box-shadow:0 3px 10px #0b203216}
+.paper-card h3{line-height:1.65}.paper-card>img{width:100%}
+.report{grid-template-columns:minmax(250px,345px) minmax(0,1fr);gap:22px}
+.poster{height:auto;max-width:100%;object-fit:contain;box-shadow:0 8px 25px #071c3240}
+@media(max-width:760px){.ticker-shell{align-items:stretch}.ticker-title{padding:10px 7px;font-size:.75rem}.ticker-pause{padding:2px 5px;font-size:.6rem;margin:6px 3px}.ticker-track>span:not(.tick-sep){font-size:.93rem;line-height:1.65}.report{grid-template-columns:1fr;gap:10px}.report-art img{aspect-ratio:1.9}.paper-grid{grid-template-columns:1fr}.paper-card>img{aspect-ratio:1.9}.brandbar>a img{width:94px;height:94px}.section{padding:17px 13px}}
+
+/* Issue 48: mobile readability, faithful logos and no duplicate imagery */
+.ticker-pause{border:1px solid #d9b766;border-radius:5px;margin:5px 7px;background:#082646;color:#fff;font:700 .69rem Tahoma,sans-serif;padding:2px 7px;cursor:pointer;white-space:nowrap;align-self:center}
+.ticker-pause:focus-visible{outline:3px solid #fff}/* The ticker is paused only by its dedicated stop button. */
+.ticker-track{direction:rtl;flex-shrink:0;will-change:transform;animation-fill-mode:both}
+.brandbar>a img{display:block;aspect-ratio:1;object-fit:contain;background:#fff}
+.report-art img,.paper-card>img{object-position:center;aspect-ratio:1.8}
+.image-origin{font-size:.65rem;color:#5e6877;line-height:1.55;padding:8px 12px 0;display:block}
+.paper-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,355px),1fr));align-items:stretch;gap:20px}
+.paper-card{grid-template-rows:auto auto auto 1fr auto auto;box-shadow:0 3px 10px #0b203216}
+.paper-card h3{line-height:1.65}.paper-card>img{width:100%}
+.report{grid-template-columns:minmax(250px,345px) minmax(0,1fr);gap:22px}
+.poster{height:auto;max-width:100%;object-fit:contain;box-shadow:0 8px 25px #071c3240}
+@media(max-width:760px){.ticker-shell{align-items:stretch}.ticker-title{padding:10px 7px;font-size:.75rem}.ticker-pause{padding:2px 5px;font-size:.6rem;margin:6px 3px}.ticker-track>span:not(.tick-sep){font-size:.93rem;line-height:1.65}.report{grid-template-columns:1fr;gap:10px}.report-art img{aspect-ratio:1.9}.paper-grid{grid-template-columns:1fr}.paper-card>img{aspect-ratio:1.9}.brandbar>a img{width:94px;height:94px}.section{padding:17px 13px}}
+
+/* Issue 48: mobile readability, faithful logos and no duplicate imagery */
+.ticker-pause{border:1px solid #d9b766;border-radius:5px;margin:5px 7px;background:#082646;color:#fff;font:700 .69rem Tahoma,sans-serif;padding:2px 7px;cursor:pointer;white-space:nowrap;align-self:center}
+.ticker-pause:focus-visible{outline:3px solid #fff}/* The ticker is paused only by its dedicated stop button. */
+.ticker-track{direction:rtl;flex-shrink:0;will-change:transform;animation-fill-mode:both}
+.brandbar>a img{display:block;aspect-ratio:1;object-fit:contain;background:#fff}
+.report-art img,.paper-card>img{object-position:center;aspect-ratio:1.8}
+.image-origin{font-size:.65rem;color:#5e6877;line-height:1.55;padding:8px 12px 0;display:block}
+.paper-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,355px),1fr));align-items:stretch;gap:20px}
+.paper-card{grid-template-rows:auto auto auto 1fr auto auto;box-shadow:0 3px 10px #0b203216}
+.paper-card h3{line-height:1.65}.paper-card>img{width:100%}
+.report{grid-template-columns:minmax(250px,345px) minmax(0,1fr);gap:22px}
+.poster{height:auto;max-width:100%;object-fit:contain;box-shadow:0 8px 25px #071c3240}
+@media(max-width:760px){.ticker-shell{align-items:stretch}.ticker-title{padding:10px 7px;font-size:.75rem}.ticker-pause{padding:2px 5px;font-size:.6rem;margin:6px 3px}.ticker-track>span:not(.tick-sep){font-size:.93rem;line-height:1.65}.report{grid-template-columns:1fr;gap:10px}.report-art img{aspect-ratio:1.9}.paper-grid{grid-template-columns:1fr}.paper-card>img{aspect-ratio:1.9}.brandbar>a img{width:94px;height:94px}.section{padding:17px 13px}}
+
+
+
+/* إصلاح مخصص لشريط صفحات العدد 48 فقط — بقية الموقع والأرشيف لا تُعدّل. */
+.ticker-shell{min-height:46px;align-items:center}
+.ticker-shell .ticker-title,.ticker-shell .ticker-pause{flex-shrink:0}
+.ticker-shell .ticker-viewport{position:relative;direction:ltr;min-width:0;overflow:hidden;flex:1}
+.ticker-shell .ticker-track{display:flex;direction:ltr;align-items:center;gap:0;position:relative;
+  width:max-content;min-width:0;white-space:nowrap;padding:0;transform:none;animation:none;
+  flex-shrink:0;will-change:transform}
+.ticker-shell .ticker-track.ticker-active{
+  animation: aan48TickerMove var(--ticker-cycle-duration,110s) linear infinite;
+  animation-play-state:running}
+.ticker-shell .ticker-track .ticker-cycle{display:inline-flex;direction:ltr;align-items:center;
+  gap:18px;white-space:nowrap;flex:none;min-width:max-content;padding:7px 16px}
+.ticker-shell .ticker-track .ticker-cycle span:not(.tick-sep){display:inline-block;direction:rtl;
+  unicode-bidi:plaintext;color:#fff;font-weight:700;font-size:clamp(13px,2.3vw,16px);line-height:1.7}
+.ticker-shell .ticker-track .ticker-cycle .tick-sep{color:#ffcf62;font-weight:700}
+@keyframes aan48TickerMove{from{transform:translate3d(-50%,0,0)}to{transform:translate3d(0,0,0)}}
+@media(max-width:760px){.ticker-shell .ticker-track.ticker-active{animation-duration:var(--ticker-cycle-duration,110s)}}
