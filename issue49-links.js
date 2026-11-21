@@ -1,0 +1,9 @@
+(()=>{'use strict';
+const base=new URL('.',document.currentScript.src);const root=p=>new URL(p,base).href;
+const pages={'الرئيسية':'index.html','الموقع الرسمي':'index.html','الموقع الرئيسي':'index.html','النشرة الإلكترونية':'issue49-newsletter.html','الصحيفة المصورة':'issue49-newspaper.html','الصحيفة المصوّرة':'issue49-newspaper.html','البوستر':'issue49-poster.html','بوستر العدد':'issue49-poster.html','الأرشيف':'archive.html','مكتبة الفيديو':'videos.html','بث يوتيوب':'https://www.youtube.com/@أبوالأنوف','البث المرئي':'live.html','الأخبار الحية':'news.html','مقال العدد':'issue49-article.html'};
+for(const a of document.querySelectorAll('a')){const t=a.textContent.trim();const href=a.getAttribute('href')||'';if(/العدد 48 السابق|العدد السابق/.test(t))continue;const exact=Object.entries(pages).find(([k])=>t===k||t===k+' 49'||t===k+' للعدد 49');if(exact)a.href=exact[1].startsWith('https:')?exact[1]:root(exact[1]);if(/مقال فهمي/.test(t))a.href=root('issue49-fahmi-alzubairi.html');if(/يوتيوب/.test(t))a.href='https://www.youtube.com/@أبوالأنوف';}
+const isHome=location.pathname.endsWith('/index.html')||location.pathname.endsWith('/');
+if(isHome){const sec=document.getElementById('aan49-current-edition');if(sec){sec.querySelectorAll('a').forEach(a=>{const h=a.getAttribute('href');if(h&&!h.startsWith('http'))a.href=root(h)});}const headers=[...document.querySelectorAll('h1,h2,h3')];for(const h of headers){if(/العدد الحالي.*19 نوفمبر 2026/.test(h.textContent))h.textContent='العدد السابق 48 • الخميس 19 نوفمبر 2026';}}
+// Main edition must not be displaced by an old archive poster
+if(location.pathname.endsWith('archive.html')){for(const h of document.querySelectorAll('h1,h2,h3'))if(/بوستر العدد الحالي.*48/.test(h.textContent))h.textContent='بوستر العدد السابق — 48';}
+})();
