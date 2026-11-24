@@ -1,4 +1,44 @@
 {
-  "updated_at": null,
-  "items": []
+  "items": [
+    {
+      "title": "بريطانيا تفرض عقوبات على الحوثيين وأربعة من مسؤولي الجماعة",
+      "url": "https://www.mofa-ye.org/Pages/ar/date/2026/11/24/",
+      "source": "الخارجية اليمنية",
+      "status": "published",
+      "verification": "official",
+      "published_at": "2026-11-24T20:21:00+03:00"
+    },
+    {
+      "title": "الأمم المتحدة تدعو إلى رفع القيود عن طرق تعز",
+      "url": "https://www.aljazeera.net/news/2026/11/24/تواصل-التصعيد-في-اليمن-والأمم-المتحدة",
+      "source": "الجزيرة عن الأمم المتحدة",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-24T20:21:00+03:00"
+    },
+    {
+      "title": "محور تعز يعلن عملية في الأقروض جنوبي المحافظة",
+      "url": "https://www.aljazeera.net/news/2026/11/24/تواصل-التصعيد-في-اليمن-والأمم-المتحدة",
+      "source": "الجزيرة عن محور تعز",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-24T20:21:00+03:00"
+    },
+    {
+      "title": "مخيم أوبوخ يستقبل أكثر من ٤٣٠٠ لاجئ يمني",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/24/اليمن-مباشر-إطلاق-صاروخ-باليستي",
+      "source": "الجزيرة عن السلطات المحلية",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-24T20:21:00+03:00"
+    },
+    {
+      "title": "وزيرة الخارجية اليمنية تبدأ زيارة رسمية إلى أثينا",
+      "url": "https://www.mofa-ye.org/Pages/ar/date/2026/11/24/",
+      "source": "وزارة الخارجية اليمنية",
+      "status": "published",
+      "verification": "official",
+      "published_at": "2026-11-24T20:21:00+03:00"
+    }
+  ]
 }
