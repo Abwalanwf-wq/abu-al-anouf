@@ -1,0 +1,8 @@
+#smart-news-strip,#breaking-news-strip{direction:rtl;display:flex;align-items:center;gap:0;padding:0;width:100%;box-sizing:border-box;overflow:hidden;background:#0b2d49;color:#fff;font:bold 16px/1.8 Tahoma,Arial,sans-serif;border-bottom:2px solid #bb934f}
+#breaking-news-strip{background:#841e37}#smart-news-strip[hidden],#breaking-news-strip[hidden]{display:none}#smart-news-strip>b,#breaking-news-strip>b{flex:none;background:#dfbd77;color:#162a3a;padding:.35em .65em}#smart-news-strip>button{background:#173f59;color:white;border:0;padding:.45em;cursor:pointer}
+#smart-headline,#breaking-headline{direction:ltr;display:block;min-width:0;flex:1;overflow:hidden;container-type:inline-size;text-align:left;white-space:nowrap}
+#smart-headline .aan-moving,#breaking-headline .aan-moving{display:inline-block;width:max-content;max-width:none;direction:rtl;color:white;white-space:nowrap;padding-inline:.6em;animation:read-headlines 95s linear infinite}
+#smart-headline a,#smart-headline a:visited{background:transparent;color:white;text-decoration:none}#smart-headline a:focus-visible{text-decoration:underline}
+@keyframes read-headlines{from{transform:translateX(min(0px,calc(100cqw - 100%)))}to{transform:translateX(0)}}
+#smart-news-strip:is(.paused,:focus-within:not(:has(button:focus))) .aan-moving,#smart-headline:hover .aan-moving{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){#smart-headline,#breaking-headline{direction:rtl;overflow-x:auto}#smart-headline .aan-moving,#breaking-headline .aan-moving{animation:none}}
