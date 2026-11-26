@@ -1,44 +1,76 @@
 {
   "items": [
     {
-      "title": "بريطانيا تفرض عقوبات على الحوثيين وأربعة من مسؤولي الجماعة",
-      "url": "https://www.mofa-ye.org/Pages/ar/date/2026/11/24/",
-      "source": "الخارجية اليمنية",
-      "status": "published",
-      "verification": "official",
-      "published_at": "2026-11-24T20:21:00+03:00"
-    },
-    {
-      "title": "الأمم المتحدة تدعو إلى رفع القيود عن طرق تعز",
-      "url": "https://www.aljazeera.net/news/2026/11/24/تواصل-التصعيد-في-اليمن-والأمم-المتحدة",
-      "source": "الجزيرة عن الأمم المتحدة",
+      "title": "اتساع المواجهات في اليمن",
+      "url": "https://www.aljazeera.net/news/2026/11/25/اتساع-المواجهات-في-اليمن-غارات-على",
+      "source": "الجزيرة",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-24T20:21:00+03:00"
+      "published_at": "2026-11-25T00:00:00+03:00",
+      "date_precision": "day"
     },
     {
-      "title": "محور تعز يعلن عملية في الأقروض جنوبي المحافظة",
-      "url": "https://www.aljazeera.net/news/2026/11/24/تواصل-التصعيد-في-اليمن-والأمم-المتحدة",
-      "source": "الجزيرة عن محور تعز",
+      "title": "ضحايا مدنيون في تعز",
+      "url": "https://www.yemenmonitor.com/News",
+      "source": "يمن مونيتور",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-24T20:21:00+03:00"
+      "published_at": "2026-11-25T00:00:00+03:00",
+      "date_precision": "day"
     },
     {
-      "title": "مخيم أوبوخ يستقبل أكثر من ٤٣٠٠ لاجئ يمني",
-      "url": "https://www.aljazeera.net/news/liveblog/2026/11/24/اليمن-مباشر-إطلاق-صاروخ-باليستي",
-      "source": "الجزيرة عن السلطات المحلية",
+      "title": "إجراءات قانونية بعد تصنيف الحوثيين",
+      "url": "https://www.yemenmonitor.com/local",
+      "source": "يمن مونيتور",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-24T20:21:00+03:00"
+      "published_at": "2026-11-25T00:00:00+03:00",
+      "date_precision": "day"
     },
     {
-      "title": "وزيرة الخارجية اليمنية تبدأ زيارة رسمية إلى أثينا",
-      "url": "https://www.mofa-ye.org/Pages/ar/date/2026/11/24/",
-      "source": "وزارة الخارجية اليمنية",
+      "title": "لجنة الاستيراد تطالب بتنفيذ قراراتها",
+      "url": "https://www.yemenmonitor.com/News",
+      "source": "يمن مونيتور",
       "status": "published",
-      "verification": "official",
-      "published_at": "2026-11-24T20:21:00+03:00"
+      "verification": "attributed",
+      "published_at": "2026-11-25T00:00:00+03:00",
+      "date_precision": "day"
+    },
+    {
+      "title": "لقاء تشاوري لقيادات البيضاء",
+      "url": "https://www.yemenmonitor.com/local",
+      "source": "يمن مونيتور",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-25T00:00:00+03:00",
+      "date_precision": "day"
+    },
+    {
+      "title": "مخزون الأدوية في تعز يوشك على النفاد",
+      "url": "https://www.yemenmonitor.com/local",
+      "source": "يمن مونيتور",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-25T00:00:00+03:00",
+      "date_precision": "day"
+    },
+    {
+      "title": "مزارعو البرتقال في مأرب يواجهون خسائر محتملة",
+      "url": "https://www.yemenmonitor.com/home-en",
+      "source": "يمن مونيتور",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-25T00:00:00+03:00",
+      "date_precision": "day"
+    },
+    {
+      "title": "مركز حقوقي يدين مصادرة منزل في صنعاء",
+      "url": "https://www.yemenmonitor.com/News",
+      "source": "يمن مونيتور",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-25T00:00:00+03:00",
+      "date_precision": "day"
     }
   ]
 }
