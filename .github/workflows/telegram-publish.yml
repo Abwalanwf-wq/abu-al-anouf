@@ -33,22 +33,16 @@ jobs:
           import json
           import subprocess
           import urllib.request
+          import urllib.error
           from pathlib import Path
 
           base = "https://abwalanwf-wq.github.io/abu-al-anouf/"
-          token = os.environ.get("TELEGRAM_BOT_TOKEN")
+          token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
           channel = os.environ["TELEGRAM_CHANNEL"]
           state = Path(".github/telegram-last-issue.txt")
 
           if not token:
               raise SystemExit("Missing Telegram secret")
-
-          def fetch(url):
-              try:
-                  with urllib.request.urlopen(url, timeout=20) as r:
-                      return r.read()
-              except Exception:
-                  raise SystemExit("Website check failed")
 
           def api(method, data):
               try:
@@ -59,19 +53,43 @@ jobs:
                   )
                   with urllib.request.urlopen(req, timeout=30) as r:
                       result = json.load(r)
-                  if not result.get("ok"):
-                      raise ValueError()
-                  return result["result"]
+              except urllib.error.HTTPError as e:
+                  raise SystemExit(f"Telegram {method}: HTTP {e.code}")
               except Exception:
-                  raise SystemExit("Telegram API request failed")
+                  raise SystemExit(f"Telegram {method}: connection failed")
 
-          def save_state(number, status):
-              state.write_text(f"{number} {status}\n")
-              subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
-              subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], check=True)
-              subprocess.run(["git", "add", str(state)], check=True)
-              subprocess.run(["git", "commit", "-m", f"Telegram issue {number} {status}"], check=True)
-              subprocess.run(["git", "push", "origin", "HEAD:main"], check=True)
+              if not result.get("ok"):
+                  raise SystemExit(f"Telegram {method}: rejected")
+
+              print(f"Telegram {method}: OK")
+              return result["result"]
+
+          bot = api("getMe", {})
+
+          if bot.get("username", "").lower() != "abualanoufmediabot":
+              raise SystemExit("Unexpected bot username")
+
+          chat = api("getChat", {"chat_id": channel})
+
+          member = api("getChatMember", {
+              "chat_id": chat["id"],
+              "user_id": bot["id"]
+          })
+
+          if chat.get("type") != "channel":
+              raise SystemExit("Target is not a channel")
+
+          if not member.get("can_post_messages"):
+              raise SystemExit("Bot needs permission to post messages")
+
+          print("Channel permissions: OK")
+
+          def fetch(url):
+              try:
+                  with urllib.request.urlopen(url, timeout=20) as r:
+                      return r.read()
+              except Exception:
+                  raise SystemExit("Website check failed: " + url)
 
           data = json.loads(fetch(base + "published.json"))
           numbers = []
@@ -107,15 +125,13 @@ jobs:
           fetch(newspaper)
           fetch(poster)
 
-          bot = api("getMe", {})
-          chat = api("getChat", {"chat_id": channel})
-          member = api("getChatMember", {
-              "chat_id": chat["id"],
-              "user_id": bot["id"]
-          })
-
-          if chat.get("type") != "channel" or not member.get("can_post_messages"):
-              raise SystemExit("Check channel permissions")
+          def save_state(status):
+              state.write_text(f"{number} {status}\n")
+              subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
+              subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], check=True)
+              subprocess.run(["git", "add", str(state)], check=True)
+              subprocess.run(["git", "commit", "-m", f"Telegram issue {number} {status}"], check=True)
+              subprocess.run(["git", "push", "origin", "HEAD:main"], check=True)
 
           caption = (
               "شبكة أبو الأنوف الإعلامية\n"
@@ -125,7 +141,7 @@ jobs:
               "صوت الوعي والمسؤولية | وعي يصنع الفرق"
           )
 
-          save_state(number, "pending")
+          save_state("pending")
 
           result = api("sendPhoto", {
               "chat_id": chat["id"],
@@ -133,6 +149,6 @@ jobs:
               "caption": caption
           })
 
-          save_state(number, "sent")
-          print("Telegram publication successful:", result["message_id"])
+          save_state("sent")
+          print("Publication successful:", result["message_id"])
           PY
