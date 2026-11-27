@@ -1,75 +1,111 @@
 {
   "items": [
     {
-      "title": "اتساع المواجهات في اليمن",
-      "url": "https://www.aljazeera.net/news/2026/11/25/اتساع-المواجهات-في-اليمن-غارات-على",
+      "title": "مأرب: إعلان خطة لإعداد قوة قوامها ٣٠ ألف مقاتل",
+      "url": "https://abwalanwf-wq.github.io/abu-al-anouf/issue54-newsletter.html#marib",
+      "source": "تغطيات صحفية منسوبة إلى المجلس",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-26T00:00:00+03:00",
+      "date_precision": "day"
+    },
+    {
+      "title": "يا رعاة السلام وحماة الإنسانية.. زوروا تعز",
+      "url": "https://abwalanwf-wq.github.io/abu-al-anouf/issue54-appeal.html",
+      "source": "شبكة أبو الأنوف الإعلامية",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-26T00:00:00+03:00",
+      "date_precision": "day"
+    },
+    {
+      "title": "نقابة المعلمين تدين الانتهاكات وتطالب بالتحقيق",
+      "url": "https://abwalanwf-wq.github.io/abu-al-anouf/issue54-newsletter.html#union",
+      "source": "البيان المختوم",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-26T00:00:00+03:00",
+      "date_precision": "day"
+    },
+    {
+      "title": "مرصد ألف يحذر من ضياع العام الدراسي",
+      "url": "https://abwalanwf-wq.github.io/abu-al-anouf/issue54-newspaper.html#monitor",
+      "source": "مرصد ألف",
+      "status": "published",
+      "verification": "attributed",
+      "published_at": "2026-11-26T00:00:00+03:00",
+      "date_precision": "day"
+    },
+    {
+      "title": "مواجهات متصاعدة في تعز ولحج ومأرب والجوف",
+      "url": "https://www.ajnet.me/news/2026/11/26/من-تعز-ولحج-إلى-مأرب-والجوف-مواجهات",
       "source": "الجزيرة",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-25T00:00:00+03:00",
+      "published_at": "2026-11-26T00:00:00+03:00",
       "date_precision": "day"
     },
     {
-      "title": "ضحايا مدنيون في تعز",
-      "url": "https://www.yemenmonitor.com/News",
-      "source": "يمن مونيتور",
+      "title": "اللجنة الأمنية في تعز تناقش التنسيق العسكري والأمني",
+      "url": "https://www.sabanew.net/story/ar/156553",
+      "source": "سبأ",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-25T00:00:00+03:00",
+      "published_at": "2026-11-26T00:00:00+03:00",
       "date_precision": "day"
     },
     {
-      "title": "إجراءات قانونية بعد تصنيف الحوثيين",
-      "url": "https://www.yemenmonitor.com/local",
-      "source": "يمن مونيتور",
+      "title": "محافظ تعز يبحث مع توم فليتشر تداعيات الحصار",
+      "url": "https://www.sabanew.net/story/ar/156551",
+      "source": "سبأ",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-25T00:00:00+03:00",
+      "published_at": "2026-11-26T00:00:00+03:00",
       "date_precision": "day"
     },
     {
-      "title": "لجنة الاستيراد تطالب بتنفيذ قراراتها",
-      "url": "https://www.yemenmonitor.com/News",
+      "title": "واشنطن تؤكد دعمها لليمن وشركائه الإقليميين",
+      "url": "https://www.yemenmonitor.com/Details/ArtMID/908/ArticleID/189050",
       "source": "يمن مونيتور",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-25T00:00:00+03:00",
+      "published_at": "2026-11-26T00:00:00+03:00",
       "date_precision": "day"
     },
     {
-      "title": "لقاء تشاوري لقيادات البيضاء",
-      "url": "https://www.yemenmonitor.com/local",
+      "title": "الأرصاد تحذر من البرد والضباب في المرتفعات",
+      "url": "https://www.yemenmonitor.com/Details/ArtMID/908/ArticleID/189038",
       "source": "يمن مونيتور",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-25T00:00:00+03:00",
+      "published_at": "2026-11-26T00:00:00+03:00",
       "date_precision": "day"
     },
     {
-      "title": "مخزون الأدوية في تعز يوشك على النفاد",
-      "url": "https://www.yemenmonitor.com/local",
-      "source": "يمن مونيتور",
+      "title": "٣٠ نوفمبر إجازة رسمية بمناسبة عيد الاستقلال",
+      "url": "https://www.sabanew.net/section/ar/2",
+      "source": "سبأ – قسم الأخبار",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-25T00:00:00+03:00",
+      "published_at": "2026-11-26T00:00:00+03:00",
       "date_precision": "day"
     },
     {
-      "title": "مزارعو البرتقال في مأرب يواجهون خسائر محتملة",
-      "url": "https://www.yemenmonitor.com/home-en",
-      "source": "يمن مونيتور",
+      "title": "الصليب الأحمر ييسّر نقل رفات عبر خطوط المواجهة",
+      "url": "https://www.icrc.org/ar/news-release/yemen-icrc-facilitates-transfer-human-remains-across-front-lines",
+      "source": "اللجنة الدولية للصليب الأحمر",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-25T00:00:00+03:00",
+      "published_at": "2026-11-26T00:00:00+03:00",
       "date_precision": "day"
     },
     {
-      "title": "مركز حقوقي يدين مصادرة منزل في صنعاء",
-      "url": "https://www.yemenmonitor.com/News",
+      "title": "إحصائية محلية ترصد ٢٠٣ نساء وفتيات بين قتيلة ومصابة في تعز",
+      "url": "https://www.yemenmonitor.com/Details/ArtMID/908/ArticleID/189079",
       "source": "يمن مونيتور",
       "status": "published",
       "verification": "attributed",
-      "published_at": "2026-11-25T00:00:00+03:00",
+      "published_at": "2026-11-26T00:00:00+03:00",
       "date_precision": "day"
     }
   ]
