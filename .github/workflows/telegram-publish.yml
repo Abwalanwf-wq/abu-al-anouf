@@ -24,7 +24,7 @@ jobs:
 
       - name: Publish latest issue
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: "-1004435255882"
         run: |
           python - <<'PY'
